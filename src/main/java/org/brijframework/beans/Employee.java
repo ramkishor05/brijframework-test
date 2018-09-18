@@ -2,7 +2,7 @@ package org.brijframework.beans;
 
 import java.util.Set;
 
-import org.brijframework.md.BaseObjectImpl;
+import org.brijframework.model.ModelObject;
 import org.brijframework.support.enums.Access;
 import org.brijframework.support.enums.Formula;
 import org.brijframework.support.enums.Scope;
@@ -28,7 +28,7 @@ import org.brijframework.support.model.Strategy;
 		@Param(type = String.class, value = "1", index = 0), 
 		@Param(type = String.class, value = "Ram", index = 1) 
 }))
-public class Employee extends BaseObjectImpl {
+public class Employee implements ModelObject{
 	/**
 	 * 
 	 */
