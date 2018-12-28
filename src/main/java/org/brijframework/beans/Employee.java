@@ -39,13 +39,13 @@ public class Employee implements ModelObject{
 	public String id;
 	
 
-	@Property(access = Access.PRIVATE)
-	public String name;
+	@Property(access = Access.PUBLIC, required=true)
+	private String name;
 	
-	@SuppressWarnings("unused")
+	@Property(access = Access.PUBLIC, required=true)
 	private long rollNo;
 	
-	@Relation(mappedBy="Address_001",referred=State.ID)
+	@Relation(mappedBy="Address_001",referred=State.ID, access=Access.PUBLIC)
 	public Address address;
 	
 	@Mapping(mappedBy = "employee", target = Address.class, query = @Query(value="employee.id = @Identity"))
@@ -117,13 +117,9 @@ public class Employee implements ModelObject{
 	}
 	
 	@Override
-	public int hashCode() {
-		return getId().hashCode();
-	}
-	
-	@Override
-	public boolean equals(Object obj) {
-		return getId().equals(((Employee)obj).getId());
+	public <T> T setProperty(String _keyPath, T _value) {
+		System.out.println("Employee ppt call");
+		return ModelObject.super.setProperty(_keyPath, _value);
 	}
 	
 }

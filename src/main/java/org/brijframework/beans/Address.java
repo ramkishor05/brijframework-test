@@ -19,7 +19,8 @@ public class Address implements ModelObject {
 	@Property(access = Access.PUBLIC, value = "Noida")
 	public String line;
 
-	@Relation(value="city",  mappedBy="")
+	//@Relation(value="city",  mappedBy="")
+	@Property(access = Access.PUBLIC)
 	private City city;
 
 	@Property(access = Access.PUBLIC, value = "Noida")
@@ -47,4 +48,9 @@ public class Address implements ModelObject {
 
 	}
 
+	@Override
+	public <T> T setProperty(String _keyPath, T _value) {
+		System.out.println("Address ppt call");
+		return ModelObject.super.setProperty(_keyPath, _value);
+	}
 }
