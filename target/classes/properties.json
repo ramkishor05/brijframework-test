@@ -1,0 +1,12 @@
+[
+  {
+    "id": "id",
+    "name": "id",
+    "access": "public"
+  },
+  {
+    "id": "name",
+    "name": "name",
+    "access": "public"
+  }
+]

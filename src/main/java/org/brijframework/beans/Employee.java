@@ -112,13 +112,11 @@ public class Employee implements ModelObject{
 	
 	@Logic
 	public void logicInfo(@Param(value="Ram",index=0, type = String.class)String i,@Param(value="1", index=1, type=String.class) String j) {
-		System.out.println("String i="+i);
 		System.out.println("String j="+j);
 	}
 	
 	@Override
 	public <T> T setProperty(String _keyPath, T _value) {
-		System.out.println("Employee ppt call");
 		return ModelObject.super.setProperty(_keyPath, _value);
 	}
 	

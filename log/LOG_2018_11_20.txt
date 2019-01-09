@@ -1,0 +1,51 @@
+
+************************************************************
+		Tue Nov 20 17:59:31 IST 2018
+************************************************************
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalArgumentException: Don't try to unauth access city
+	at org.brijframework.util.asserts.Assertion.isTrue(Assertion.java:23)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:117)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:92)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:82)
+	at org.brijframework.util.builder.BuilderUtil.getPropertyObject(BuilderUtil.java:156)
+	at org.brijframework.util.builder.BuilderUtil.getProperty(BuilderUtil.java:76)
+	at org.brijframework.model.ModelObject.getProperty(ModelObject.java:27)
+	at org.brijframework.core.objects.DefaultBaseObject.getProperty(DefaultBaseObject.java:28)
+	at org.brijframework.core.objects.DefaultBaseObject.containsValue(DefaultBaseObject.java:45)
+	at org.brijframework.test.model.ModelObjectTest.main(ModelObjectTest.java:25)
+
+
+************************************************************
+		Tue Nov 20 18:12:21 IST 2018
+************************************************************
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalArgumentException: Don't try to unauth access city
+	at org.brijframework.util.asserts.Assertion.isTrue(Assertion.java:23)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:117)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:92)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:82)
+	at org.brijframework.util.builder.BuilderUtil.getPropertyObject(BuilderUtil.java:156)
+	at org.brijframework.util.builder.BuilderUtil.getProperty(BuilderUtil.java:76)
+	at org.brijframework.model.ModelObject.getProperty(ModelObject.java:27)
+	at org.brijframework.core.objects.DefaultBaseObject.getProperty(DefaultBaseObject.java:28)
+	at org.brijframework.core.objects.DefaultBaseObject.containsValue(DefaultBaseObject.java:45)
+	at org.brijframework.test.model.ModelObjectTest.main(ModelObjectTest.java:25)
+
+
+************************************************************
+		Tue Nov 20 18:12:38 IST 2018
+************************************************************
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalArgumentException: Don't try to unauth access city
+	at org.brijframework.util.asserts.Assertion.isTrue(Assertion.java:23)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:117)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:92)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:82)
+	at org.brijframework.util.builder.BuilderUtil.getPropertyObject(BuilderUtil.java:156)
+	at org.brijframework.util.builder.BuilderUtil.getProperty(BuilderUtil.java:76)
+	at org.brijframework.model.ModelObject.getProperty(ModelObject.java:27)
+	at org.brijframework.core.objects.DefaultBaseObject.getProperty(DefaultBaseObject.java:28)
+	at org.brijframework.core.objects.DefaultBaseObject.containsValue(DefaultBaseObject.java:45)
+	at org.brijframework.test.model.ModelObjectTest.main(ModelObjectTest.java:25)
+

@@ -1,0 +1,19 @@
+
+************************************************************
+		Mon Jan 07 14:27:02 IST 2019
+************************************************************
+LOG TRACE-------------- x ----------------------------x--------------------------
+Stack Trace:java.lang.IllegalArgumentException: Trying to illegal access city
+	at org.brijframework.util.asserts.Assertion.isTrue(Assertion.java:23)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:117)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:92)
+	at org.brijframework.util.accessor.PropertyAccessorUtil.getProperty(PropertyAccessorUtil.java:82)
+	at org.brijframework.model.builder.BuilderUtil.getPropertyObject(BuilderUtil.java:197)
+	at org.brijframework.model.builder.BuilderUtil.getProperty(BuilderUtil.java:117)
+	at org.brijframework.model.builder.BuilderUtil.getCurrentFromInstance(BuilderUtil.java:69)
+	at org.brijframework.model.builder.ModelBuilder.getCurrentInstance(ModelBuilder.java:163)
+	at org.brijframework.model.builder.ModelBuilder.setProperty(ModelBuilder.java:39)
+	at org.brijframework.model.ModelObject.setProperty(ModelObject.java:17)
+	at org.brijframework.beans.Employee.setProperty(Employee.java:122)
+	at org.brijframework.test.model.ModelObjectTest.main(ModelObjectTest.java:26)
+

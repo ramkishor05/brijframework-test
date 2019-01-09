@@ -1,12 +1,12 @@
 package org.brijframework.test.model;
 
+import java.util.HashSet;
+
 import org.brijframework.beans.Address;
 import org.brijframework.beans.City;
 import org.brijframework.beans.Employee;
-import org.brijframework.model.data.ModelDataInfo;
 import org.brijframework.model.factories.AnnotationModelMetaInfoFactory;
 import org.brijframework.model.factories.AnnotationPropertyMetaInfoFactory;
-import org.brijframework.model.factories.ModelDataInfoFactoryImpl;
 import org.brijframework.model.factories.PropertyMetaInfoFactoryImpl;
 import org.brijframework.util.formatter.PrintUtil;
 
@@ -26,10 +26,12 @@ public class ModelObjectTest {
 		employee.setProperty("address.line", "noida");
 		employee.setProperty("address.city", new City());
 		employee.setProperty("address.city.id", "1245");
+		employee.setProperty("addresses", new HashSet<>());
+		employee.setProperty("addresses[1].line", "1245");
 		String object=PrintUtil.getObjectInfo(employee);
 		System.out.println(object);
-		ModelDataInfoFactoryImpl.getFactory().register(AnnotationModelMetaInfoFactory.getFactory().getModelInfo("Employee"));
+		/*ModelDataInfoFactoryImpl.getFactory().register(AnnotationModelMetaInfoFactory.getFactory().getModelInfo("Employee"));
 		ModelDataInfo modelDataInfo=ModelDataInfoFactoryImpl.getFactory().getModelInfo("Employee");
-		System.out.println(modelDataInfo.getInstances());
+		System.out.println(modelDataInfo.getInstances());*/
 	}
 }
