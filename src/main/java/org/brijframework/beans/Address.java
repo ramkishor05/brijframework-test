@@ -1,6 +1,6 @@
 package org.brijframework.beans;
 
-import org.brijframework.model.ModelObject;
+import org.brijframework.model.GenericModel;
 import org.brijframework.support.enums.Access;
 import org.brijframework.support.enums.Scope;
 import org.brijframework.support.model.Logic;
@@ -8,9 +8,9 @@ import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Property;
 import org.brijframework.support.model.Relation;
 
-@Model(access = Access.DEFAULT, scope = Scope.prototype)
-@Model(id = "Address_001", access = Access.DEFAULT, scope = Scope.prototype)
-public class Address implements ModelObject {
+@Model(access = Access.DEFAULT, scope = Scope.PROTOTYPE)
+@Model(id = "Address_001", access = Access.DEFAULT, scope = Scope.PROTOTYPE)
+public class Address implements GenericModel {
 	/**
 	 * 
 	 */
@@ -51,6 +51,6 @@ public class Address implements ModelObject {
 	@Override
 	public <T> T setProperty(String _keyPath, T _value) {
 		System.out.println("Address ppt call");
-		return ModelObject.super.setProperty(_keyPath, _value);
+		return GenericModel.super.setProperty(_keyPath, _value);
 	}
 }

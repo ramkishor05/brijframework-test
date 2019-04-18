@@ -16,7 +16,6 @@ public class ExpressionTest {
 		Employee employee2=new Employee();
 		employee2.id="ajay";
 		list.add(employee2);
-		String query="id==ram";
-		System.out.println(Expressions.propertyWithExpression(list, query));;
+		System.out.println(Expressions.propertyWithExpression(list, "id==ram or id==ajay"));;
 	}
 }

@@ -2,11 +2,11 @@ package org.brijframework.beans;
 
 import java.util.Set;
 
-import org.brijframework.model.ModelObject;
+import org.brijframework.model.GenericModel;
 import org.brijframework.support.enums.Access;
 import org.brijframework.support.enums.Formula;
 import org.brijframework.support.enums.Scope;
-import org.brijframework.support.enums.State;
+import org.brijframework.support.enums.Wiring;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Identity;
 import org.brijframework.support.model.Logic;
@@ -19,23 +19,23 @@ import org.brijframework.support.model.Relation;
 import org.brijframework.support.model.Strategy;
 
 @Model(id = "Employee_001", access = Access.PRIVATE,
-   scope = Scope.prototype, extend = "", propertyKeys = { "id","name" }, 
+   scope = Scope.PROTOTYPE, extend = "", propertyKeys = { "id","name" }, 
    methodKeys = { "id", "name" }
 )
-@Model(access = Access.PUBLIC, scope = Scope.singleton, 
+@Model(access = Access.PUBLIC, scope = Scope.SINGLETON, 
    constructor= @Construct(params =  {
 		@Param(type =long.class, value = "1", index = 2),
 		@Param(type = String.class, value = "1", index = 0), 
 		@Param(type = String.class, value = "Ram", index = 1) 
 }))
-public class Employee implements ModelObject{
+public class Employee implements GenericModel{
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	
 	@Property("1")
-	@Identity(strategy = @Strategy(formula = Formula.Sequence, value = 10))
+	@Identity(strategy = @Strategy(formula = Formula.Sequence, init = 10))
 	public String id;
 	
 
@@ -45,10 +45,10 @@ public class Employee implements ModelObject{
 	@Property(access = Access.PUBLIC, required=true)
 	private long rollNo;
 	
-	@Relation(mappedBy="Address_001",referred=State.ID, access=Access.PUBLIC)
+	@Relation(mappedBy="Address_001", wired=Wiring.AUTO, access=Access.PUBLIC, required=true)
 	public Address address;
 	
-	@Mapping(mappedBy = "employee", target = Address.class, query = @Query(value="employee.id = @Identity"))
+	@Mapping(source = "" )
 	public Set<Address> addresses;
 	
 
@@ -117,7 +117,12 @@ public class Employee implements ModelObject{
 	
 	@Override
 	public <T> T setProperty(String _keyPath, T _value) {
-		return ModelObject.super.setProperty(_keyPath, _value);
+		return GenericModel.super.setProperty(_keyPath, _value);
+	}
+	
+	@Override
+	public String toString() {
+		return this.id.toString();
 	}
 	
 }
