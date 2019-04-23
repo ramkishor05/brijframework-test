@@ -29,15 +29,5 @@
 			<artifactId>org.brijframework-model</artifactId>
 			<version>0.0.1</version>
 		</dependency>
-		<dependency>
-			<groupId>org.brijframework</groupId>
-			<artifactId>org.brijframework-resources</artifactId>
-			<version>0.0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.brijframework</groupId>
-			<artifactId>org.brijframework-expression</artifactId>
-			<version>0.0.1</version>
-		</dependency>
 	</dependencies>
 </project>

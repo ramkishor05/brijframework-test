@@ -14,7 +14,6 @@ import org.brijframework.support.model.Mapping;
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Param;
 import org.brijframework.support.model.Property;
-import org.brijframework.support.model.Query;
 import org.brijframework.support.model.Relation;
 import org.brijframework.support.model.Strategy;
 
@@ -53,25 +52,21 @@ public class Employee implements GenericModel{
 	
 
 	public Employee() {
-		System.out.println("colling for default");
 	}
 
 	@Construct(params = { @Param(type = String.class, value = "1", index = 0) })
 	public Employee(String id) {
-		System.out.println("colling for String only ");
 		this.id = id;
 	}
 	
 	@Construct(params = { @Param(type = String.class, value = "1", index = 0), @Param(type = String.class, value = "Ram", index = 1) })
 	public Employee(String id,String name) {
-		System.out.println("colling for id and name ");
 		this.id = id;
 		this.name=name;
 	}
 	
 	@Construct(params = { @Param(type = String.class, value = "1", index = 0), @Param(type = String.class, value = "Ram", index = 1) })
 	public Employee(String id,String name,long rollNo) {
-		System.out.println("colling for id and name, rollno ");
 		this.id = id;
 		this.name=name;
 		this.rollNo=rollNo;
@@ -84,45 +79,33 @@ public class Employee implements GenericModel{
 	
 	@Property("1")
 	public String getId() {
-		System.out.println("id is getting :"+id);
 		return id;
 	}
 
 	@Logic
 	public void logicInfo() {
-		System.out.println("colled");
 	}
 
 	@Logic
 	public void logicInfo(int i) {
-      System.out.println("int i="+i);
 	}
 
 	@Logic
 	public void logicInfo(String i) {
-		System.out.println("String i="+i);
 	}
 	
 
 	@Logic(id="nameForKey",access=Access.DEFAULT)
 	public void logicInfo(@Param(value="Ram",index=0,name="first", type = String.class)String i,@Param(value="1", index=1, type=Integer.class) Number j) {
-		System.out.println("String i="+i);
-		System.out.println("int j="+j);
 	}
 	
 	@Logic
 	public void logicInfo(@Param(value="Ram",index=0, type = String.class)String i,@Param(value="1", index=1, type=String.class) String j) {
-		System.out.println("String j="+j);
 	}
 	
 	@Override
 	public <T> T setProperty(String _keyPath, T _value) {
 		return GenericModel.super.setProperty(_keyPath, _value);
-	}
-	
-	@Override
-	public String toString() {
-		return this.id.toString();
 	}
 	
 }
