@@ -1,13 +1,13 @@
 package org.brijframework.beans;
 
-import org.brijframework.support.enums.Access;
 import org.brijframework.support.enums.Scope;
-import org.brijframework.support.model.Identity;
 import org.brijframework.support.model.Model;
+import org.brijframework.support.model.Property;
+import org.brijframework.util.support.Access;
 
-@Model(access = Access.DEFAULT, scope = Scope.PROTOTYPE)
+@Model(access = Access.PRIVATE, scope = Scope.SINGLETON)
 public class City {
 
-	@Identity
+	@Property(value="Auto Noida")
 	public String name;
 }

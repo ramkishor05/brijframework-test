@@ -1,0 +1,15 @@
+{
+	"id": "TestingModel_001",
+	"type": "org.brijframework.beans.TestingModel",
+	"name": "TestingModel",
+	"properties": {
+		"id": {
+			"access": "PUBLIC",
+			"value": "4545"
+		},
+		"name": {
+			"access": "PUBLIC",
+			"value": "Ram"
+		}
+	}
+}

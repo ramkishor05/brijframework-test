@@ -1,32 +1,44 @@
 package org.brijframework.beans;
 
-import org.brijframework.model.GenericModel;
-import org.brijframework.support.enums.Access;
+import org.brijframework.model.beans.ModelBean;
 import org.brijframework.support.enums.Scope;
+import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Logic;
 import org.brijframework.support.model.Model;
+import org.brijframework.support.model.Param;
 import org.brijframework.support.model.Property;
 import org.brijframework.support.model.Relation;
+import org.brijframework.util.support.Access;
 
 @Model(access = Access.DEFAULT, scope = Scope.PROTOTYPE)
-@Model(id = "Address_001", access = Access.DEFAULT, scope = Scope.PROTOTYPE)
-public class Address implements GenericModel {
+@Model(id = "Address_001", access = Access.PRIVATE, scope = Scope.PROTOTYPE,constructor= @Construct(params =  {
+		@Param(type = String.class, value = "Sector 70", index = 0), 
+		@Param(type = String.class, value = "Noida", index = 1) 
+}))
+public class Address implements ModelBean {
 	/**
 	 * 
 	 */
+	
 	private static final long serialVersionUID = 1L;
 
-	@Property(access = Access.PUBLIC, value = "Noida")
+	public Address() {
+	}
+	
+	public Address(String line,String landMark) {
+		this.line=line;
+		this.landMark=landMark;
+	}
+	
+	@Property(access = Access.PUBLIC, value = "Sector 71")
 	public String line;
 
-	//@Relation(value="city",  mappedBy="")
-	@Property(access = Access.PUBLIC)
+	@Relation(mappedBy="City")
 	private City city;
 
 	@Property(access = Access.PUBLIC, value = "Noida")
 	private String landMark;
 	
-	@Relation("Employee")
 	public Employee employee;
 
 	@Logic
@@ -51,6 +63,6 @@ public class Address implements GenericModel {
 	@Override
 	public <T> T setProperty(String _keyPath, T _value) {
 		System.out.println("Address ppt call");
-		return GenericModel.super.setProperty(_keyPath, _value);
+		return ModelBean.super.setProperty(_keyPath, _value);
 	}
 }
