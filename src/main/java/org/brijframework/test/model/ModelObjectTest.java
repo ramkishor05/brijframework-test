@@ -11,7 +11,7 @@ public class ModelObjectTest {
 	public static void main(String[] args) {
 		/*TestingModel employee = ModelFactory.getFactory().getModel("Employee_REQUEST");
 		employee.printObject();*/
-		ClassMeta classMeta= JsonModelMetaInfoFactory.getFactory().getModelInfo("TestingModel_001");
+		ClassMeta classMeta= JsonModelMetaInfoFactory.getFactory().getMeta("TestingModel_001");
 		System.out.println(classMeta.getProperties());;
 	}
 }

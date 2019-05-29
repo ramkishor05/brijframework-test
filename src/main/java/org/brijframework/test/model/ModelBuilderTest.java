@@ -3,14 +3,14 @@ package org.brijframework.test.model;
 import java.io.IOException;
 
 import org.brijframework.model.builder.ModelBuilder;
-import org.brijframework.model.context.ApplicationContext;
+import org.brijframework.model.context.ModelContext;
 import org.brijframework.util.printer.GraphPrinter;
 
 public class ModelBuilderTest {
 
 	public static void main(String[] args) throws IOException {
 		
-		ApplicationContext context=new ApplicationContext();
+		ModelContext context=new ModelContext();
 		context.startup();
 		
 		ModelBuilder builder=ModelBuilder.getBuilder("Employee");

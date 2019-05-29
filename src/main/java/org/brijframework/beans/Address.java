@@ -1,6 +1,6 @@
 package org.brijframework.beans;
 
-import org.brijframework.model.beans.ModelBean;
+import org.brijframework.model.ModelBean;
 import org.brijframework.support.enums.Scope;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Logic;

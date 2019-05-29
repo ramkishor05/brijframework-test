@@ -2,7 +2,7 @@ package org.brijframework.beans;
 
 import java.util.Set;
 
-import org.brijframework.model.beans.ModelBean;
+import org.brijframework.model.ModelBean;
 import org.brijframework.support.enums.Formula;
 import org.brijframework.support.enums.Scope;
 import org.brijframework.support.enums.Wiring;
