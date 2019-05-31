@@ -1,0 +1,18 @@
+[
+	{
+		"id": "TestingModel_001",
+		"entity": "org.brijframework.beans.TestingModel",
+		"sequence": 1,
+		"unique": "id",
+		"properties": {
+			"id": {
+				"access": "PUBLIC",
+				"value": "4545"
+			},
+			"name": {
+				"access": "PUBLIC",
+				"value": "Ram"
+			}
+		}
+	}
+]
