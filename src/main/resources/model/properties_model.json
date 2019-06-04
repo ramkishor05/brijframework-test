@@ -1,7 +1,7 @@
 {
-	"id": "TestingModel_001",
-	"type": "org.brijframework.beans.TestingModel",
-	"name": "TestingModel",
+	"id": "Employee_001",
+	"type": "org.brijframework.beans.Employee",
+	"name": "Employee",
 	"properties": {
 		"id": {
 			"access": "PUBLIC",

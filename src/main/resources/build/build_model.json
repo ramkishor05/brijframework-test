@@ -1,6 +1,6 @@
 {
 	"type": "class",
-	"name": "org.brijframework.beans.TestingModel",
+	"name": "org.brijframework.beans.Employee",
 	"implements": "org.brijframework.model.beans.ModelBean",
 	"annotations": [
 		{

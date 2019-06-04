@@ -1,5 +1,7 @@
 package org.brijframework.beans;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Set;
 
 import org.brijframework.model.ModelBean;
@@ -41,7 +43,7 @@ public class Employee implements ModelBean{
 	
 	@Property("1")
 	@Identity(strategy = @Strategy(formula = Formula.Sequence, init = 10))
-	public String id;
+	private String id;
 	
 
 	@Property(access = Access.PUBLIC, required=true)
@@ -51,10 +53,13 @@ public class Employee implements ModelBean{
 	private long rollNo;
 	
 	@Relation(mappedBy="Address_001", wired=Wiring.AUTO, access=Access.PUBLIC, required=true)
-	public Address address;
+	private Address address;
 	
 	@Mapping(source = "AddressList" )
-	public Set<Address> addresses;
+	private Set<Address> addresses;
+	
+	@Property(access = Access.PUBLIC, required=true, type=LinkedHashMap.class)
+	private Map<String,Address> addresseMap;
 	
 
 	public Employee() {

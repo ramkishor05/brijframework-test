@@ -1,7 +1,7 @@
 [
 	{
-		"id": "TestingModel_001",
-		"entity": "org.brijframework.beans.TestingModel",
+		"id": "Employee_001",
+		"entity": "org.brijframework.beans.Employee",
 		"sequence": 1,
 		"unique": "id",
 		"properties": {
