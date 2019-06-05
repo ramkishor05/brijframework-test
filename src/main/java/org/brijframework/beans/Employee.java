@@ -1,8 +1,8 @@
 package org.brijframework.beans;
 
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import org.brijframework.model.ModelBean;
 import org.brijframework.support.enums.Formula;
@@ -56,7 +56,7 @@ public class Employee implements ModelBean{
 	private Address address;
 	
 	@Mapping(source = "AddressList" )
-	private Set<Address> addresses;
+	private List<Address> addresses;
 	
 	@Property(access = Access.PUBLIC, required=true, type=LinkedHashMap.class)
 	private Map<String,Address> addresseMap;
@@ -123,11 +123,6 @@ public class Employee implements ModelBean{
 	@Logic
 	public void logicInfo(@Param(value="Ram",index=0, type = String.class)String i,@Param(value="1", index=1, type=String.class) String j) {
 		System.out.println("String j="+j);
-	}
-	
-	@Override
-	public <T> T setProperty(String _keyPath, T _value) {
-		return ModelBean.super.setProperty(_keyPath, _value);
 	}
 	
 }
