@@ -9,12 +9,18 @@ import org.brijframework.beans.Employee;
 public class ModelBeanForTestCollection {
 	public static void main(String[] args) {
 		Employee employee=new Employee();
-		//employee.setProperty("addresses", new ArrayList<Address>());
+		/*List<Address>addresses=new ArrayList<Address>();
+		employee.setProperty("addresses", addresses);*/
 		//employee.setProperty("addresses[0]", new Address());
 		employee.setProperty("addresses[0].line", "Noida1");
 		//employee.setProperty("addresseMap.address010.city", new City());
-		employee.setProperty("addresses[0].city.name", "Ok1");
-		System.out.println(""+employee.getProperty("addresses").getClass());
+		//System.out.println(""+employee.getProperty("addresses").getClass());
+		
+		employee.setProperty("addresses[1].line", "Noida2");
+		employee.setProperty("addresses[1].city.name", "Ok2");
+		employee.setProperty("addresses[1].city.name", "Ok2up");
+		
+		employee.setProperty("address.city.name","DB");
 		employee.printObject();
 	}
 }
