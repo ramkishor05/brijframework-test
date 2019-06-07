@@ -59,7 +59,7 @@ public class Employee implements ModelBean{
 	private List<Address> addresses;
 	
 	@Property(access = Access.PUBLIC, required=true, type=LinkedHashMap.class)
-	private Map<String,Address> addresseMap;
+	private Map<Integer,Address> addresseMap;
 	
 
 	public Employee() {
