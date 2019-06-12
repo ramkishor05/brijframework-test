@@ -1,0 +1,20 @@
+{
+	"id": "DATA_SOURCE",
+	"type": "org.apache.commons.dbcp.BasicDataSource",
+	"name": "DataSource",
+	"scope": "SINGLETON",
+	"properties": {
+		"driverClassName": {
+			"access": "PUBLIC"
+		},
+		"url": {
+			"access": "PUBLIC"
+		},
+		"username": {
+			"access": "PUBLIC"
+		},
+		"password": {
+			"access": "PUBLIC"
+		}
+	}
+}

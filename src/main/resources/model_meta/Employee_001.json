@@ -2,6 +2,7 @@
 	"id": "Employee_001",
 	"type": "org.brijframework.beans.Employee",
 	"name": "Employee",
+	"scope":"singleton",
 	"properties": {
 		"id": {
 			"access": "PUBLIC",

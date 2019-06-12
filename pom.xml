@@ -29,6 +29,11 @@
 			<artifactId>org.brijframework-model</artifactId>
 			<version>0.0.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.brijframework</groupId>
+			<artifactId>org.brijframework-jdbc</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-jdk8 -->
 		<dependency>
 			<groupId>org.mapstruct</groupId>
@@ -39,6 +44,13 @@
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct-processor</artifactId>
 			<version>1.2.0.Final</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.2.2</version>
 		</dependency>
 
 	</dependencies>
