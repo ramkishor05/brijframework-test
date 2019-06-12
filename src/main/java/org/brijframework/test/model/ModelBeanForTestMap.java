@@ -20,7 +20,6 @@ public class ModelBeanForTestMap {
 		employee.setProperty("addresseMap.01010.line", "Noida1");
 		//employee.setProperty("addresseMap.address010.city", new City());
 		employee.setProperty("addresseMap.01010.city.name", "Ok1");
-		System.out.println(""+employee.getProperty("addresseMap").getClass());
 		//employee.setProperty("addresseMap.address012", new Address());
 		employee.setProperty("addresseMap.1212.line", "Noida2");
 		//employee.setProperty("addresseMap.address012.city", new City());
