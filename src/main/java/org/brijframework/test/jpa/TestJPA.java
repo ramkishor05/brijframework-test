@@ -1,12 +1,14 @@
 package org.brijframework.test.jpa;
 
 import java.sql.Connection;
-import java.sql.DatabaseMetaData;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import org.brijframework.jdbc.factories.SchemaFactory;
+import org.brijframework.jdbc.constants.JdbcMeta;
+import org.brijframework.jdbc.context.JdbcContext;
+import org.brijframework.jdbc.factories.asm.DataSourceJdbcFactory;
+import org.brijframework.jdbc.util.JdbcUtil;
 import org.brijframework.model.context.ModelContext;
+import org.brijframework.model.env.PropEnvironment;
 
 public class TestJPA {
 	public static void main(String[] args) {
@@ -17,18 +19,19 @@ public class TestJPA {
 		 * context.setProperty(EntityConstants.IMPORT_ADPTER_CLASS,
 		 * EntityProcessorImpl.class.getName()); context.start();
 		 */
+		PropEnvironment environment=new PropEnvironment();
+		
+		
+		
 		ModelContext context = new ModelContext();
 		context.startup();
-
+		
+		JdbcContext jdbcContext=new JdbcContext();
+		
 		Connection jdbcConnection;
 		try {
-			jdbcConnection = SchemaFactory.factory().getConnection("DEV_DATA_SOURCE");
-			DatabaseMetaData metaData=jdbcConnection.getMetaData();
-			ResultSet tables = metaData.getTables(null, null, null, 
-			         new String[] {"TABLE"});
-			while (tables.next()) {
-				System.out.println(tables.getRow()+"table = " + tables.getString("TABLE_NAME"));
-			}
+			jdbcConnection = DataSourceJdbcFactory.factory().getConnection("DEV_DATA_SOURCE");
+			System.out.println(JdbcUtil.getTablesList(jdbcConnection,JdbcMeta.TABLE.toString()));
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
