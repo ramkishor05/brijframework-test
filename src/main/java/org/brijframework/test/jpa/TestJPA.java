@@ -1,9 +1,9 @@
 package org.brijframework.test.jpa;
 
+import java.util.Map.Entry;
+
 import org.brijframework.asm.context.ApplicationContext;
-import org.brijframework.model.env.PropEnvironment;
-import org.brijframework.resources.asm.container.FileResourceContainer;
-import org.brijframework.resources.container.ResourceContainer;
+import org.brijframework.resources.factory.yaml.YamlResourceFactory;
 
 public class TestJPA {
 	public static void main(String[] args) {
@@ -17,10 +17,12 @@ public class TestJPA {
 		ApplicationContext context=new  ApplicationContext();
 		context.startup();
 		
-		/*
-		 * PropEnvironment environment=new PropEnvironment();
-		 * System.out.println(environment.getProperties());
+		/*PropEnvironment environment=new PropEnvironment();
+		System.out.println(environment.getProperties());
 		 */
+		YamlResourceFactory factory=YamlResourceFactory.factory();
+		for(Entry<Object, Object> entry:factory.getResource("application.yml").getProperties().entrySet())
+		System.out.println(entry.getKey()+"="+entry.getValue());
 		/*
 		 * ModelContext context = new ModelContext();
 		 * 
