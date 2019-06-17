@@ -26,6 +26,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.brijframework</groupId>
+			<artifactId>org.brijframework-context</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.brijframework</groupId>
 			<artifactId>org.brijframework-model</artifactId>
 			<version>0.0.1</version>
 		</dependency>
