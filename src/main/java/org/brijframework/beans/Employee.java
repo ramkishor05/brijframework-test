@@ -60,7 +60,6 @@ public class Employee implements ModelBean{
 	
 	@Property(access = Access.PUBLIC, required=true, type=LinkedHashMap.class)
 	private Map<Integer,Address> addresseMap;
-	
 
 	public Employee() {
 		System.out.println("colling for default");

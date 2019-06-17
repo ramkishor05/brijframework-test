@@ -1,7 +1,5 @@
 package org.brijframework.test.model;
 
-import java.util.HashMap;
-
 import org.brijframework.beans.Address;
 import org.brijframework.beans.Employee;
 import org.brijframework.model.context.ModelContext;
@@ -15,7 +13,7 @@ public class ModelBeanForTestMap {
 		ModelContext context=new ModelContext();
 		context.startup();
 		Employee employee=new Employee();
-		employee.setProperty("addresseMap", new HashMap<Integer, Address>());
+		//employee.setProperty("addresseMap", new HashMap<Integer, Address>());
 		employee.setProperty("addresseMap.01010", new Address());
 		employee.setProperty("addresseMap.01010.line", "Noida1");
 		//employee.setProperty("addresseMap.address010.city", new City());
