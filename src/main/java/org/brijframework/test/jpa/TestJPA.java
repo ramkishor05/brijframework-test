@@ -1,7 +1,5 @@
 package org.brijframework.test.jpa;
 
-import org.brijframework.context.ApplicationContext;
-
 public class TestJPA {
 	public static void main(String[] args) {
 		/*
@@ -11,8 +9,6 @@ public class TestJPA {
 		 * context.setProperty(EntityConstants.IMPORT_ADPTER_CLASS,
 		 * EntityProcessorImpl.class.getName()); context.start();
 		 */
-		ApplicationContext context=new  ApplicationContext();
-		context.startup();
 		
 		/*
 		 * PropEnvironment environment=new PropEnvironment();
