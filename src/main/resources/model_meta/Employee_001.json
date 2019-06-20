@@ -1,6 +1,6 @@
 {
 	"id": "Employee_001",
-	"type": "org.brijframework.beans.Employee",
+	"target": "org.brijframework.beans.Employee",
 	"name": "Employee",
 	"scope":"singleton",
 	"properties": {

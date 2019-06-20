@@ -1,6 +1,6 @@
 {
 	"id": "DATA_SOURCE",
-	"type": "org.apache.commons.dbcp.BasicDataSource",
+	"target": "org.apache.commons.dbcp.BasicDataSource",
 	"name": "DataSource",
 	"scope": "SINGLETON",
 	"properties": {

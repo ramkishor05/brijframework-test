@@ -18,7 +18,6 @@ import org.brijframework.util.support.Access;
 }))
 
 @Bean(id = "Address_001", model = "Address_001", properties = { @Attribute(name = "line", value = "noida") })
-
 public class Address implements ModelBean {
 	/**
 	 * 
