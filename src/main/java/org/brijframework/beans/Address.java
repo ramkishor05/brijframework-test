@@ -2,6 +2,8 @@ package org.brijframework.beans;
 
 import org.brijframework.model.ModelBean;
 import org.brijframework.support.model.Construct;
+import org.brijframework.support.model.Attribute;
+import org.brijframework.support.model.Bean;
 import org.brijframework.support.model.Logic;
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Param;
@@ -14,6 +16,9 @@ import org.brijframework.util.support.Access;
 	@Param(type = String.class, index = 0), 
 	@Param(type = String.class, index = 1) 
 }))
+
+@Bean(id = "Address_001", model = "Address_001", properties = { @Attribute(name = "line", value = "noida") })
+
 public class Address implements ModelBean {
 	/**
 	 * 
