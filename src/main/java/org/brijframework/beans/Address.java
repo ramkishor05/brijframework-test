@@ -17,7 +17,10 @@ import org.brijframework.util.support.Access;
 	@Param(type = String.class, index = 1) 
 }))
 
-@Bean(id = "Address_001", model = "Address_001", properties = { @Attribute(name = "line", value = "noida") })
+@Bean(id = "Address_001", model = "Address_001", properties = { 
+	@Attribute(name = "line", value = "noida"),
+	@Attribute(name = "landMark", value = "Globel")
+})
 public class Address implements ModelBean {
 	/**
 	 * 
@@ -42,7 +45,7 @@ public class Address implements ModelBean {
 	@Property(access = Access.PUBLIC, value = "Noida")
 	private String landMark;
 	
-	public Employee employee;
+	//public Employee employee;
 
 	@Logic
 	public void logicInfo() {
