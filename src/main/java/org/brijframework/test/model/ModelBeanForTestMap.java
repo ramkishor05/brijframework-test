@@ -11,6 +11,7 @@ import org.brijframework.model.context.ModelContext;
 public class ModelBeanForTestMap {
 	public static void main(String[] args) {
 		ModelContext context=new ModelContext();
+		context.init();
 		context.startup();
 		Employee employee=new Employee();
 		//employee.setProperty("addresseMap", new HashMap<Integer, Address>());

@@ -7,8 +7,7 @@
 	    "driverClassName":"com.mysql.cj.jdbc.Driver",
 	    "url":"jdbc:mysql://localhost:3306/fadsan_school",
 	    "username":"root",
-	    "password":"root",
-	    "name":"Raj"
+	    "password":"root"
 	 }
    },
    {
@@ -19,8 +18,7 @@
 	    "driverClassName":"com.mysql.cj.jdbc.Driver",
 	    "url":"jdbc:mysql://localhost:3306/fadsan_school",
 	    "username":"root",
-	    "password":"root",
-	    "name":"Raj"
+	    "password":"root"
 	 }
    }
 ]
