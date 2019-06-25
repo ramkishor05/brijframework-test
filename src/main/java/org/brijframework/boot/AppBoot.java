@@ -8,5 +8,4 @@ public class AppBoot {
 		ApplicationContext context = new ApplicationContext();
 		context.startup();
 	}
-	
 }
