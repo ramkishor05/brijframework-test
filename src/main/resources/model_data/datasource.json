@@ -20,5 +20,16 @@
 	    "username":"root",
 	    "password":"root"
 	 }
+   },
+   {
+	 "id" :"DEV_DATA_SOURCE_UI",
+	 "model":"DATA_SOURCE",
+	 "name": "DataSource",
+	 "properties":{
+	    "driverClassName":"com.mysql.cj.jdbc.Driver",
+	    "url":"jdbc:mysql://localhost:3306/",
+	    "username":"root",
+	    "password":"root"
+	 }
    }
 ]
