@@ -26,17 +26,17 @@
 		</dependency>
 		<dependency>
 			<groupId>org.brijframework</groupId>
-			<artifactId>org.brijframework-boot</artifactId>
+			<artifactId>brijframework-boot</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.brijframework</groupId>
-			<artifactId>org.brijframework-model</artifactId>
+			<artifactId>brijframework-model</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.brijframework</groupId>
-			<artifactId>org.brijframework-jdbc</artifactId>
+			<artifactId>brijframework-jdbc</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-jdk8 -->
