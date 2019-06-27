@@ -1,12 +1,29 @@
-# Details of a user
+# application
 ---
-name: Test User
-age: 30
-address:
-  line1: My Address Line 1
-  line2: Address line 2
-  city: Washington D.C.
-  zip: 20000
-roles: 
-  - User
-  - Editor
+application:
+   name: Test User
+   bootstrap: 
+       config:
+          model:
+             data:
+                json :
+                  enable : true
+                  location : \\model_data
+             meta:
+                json :
+                  location : \\model_meta
+          jdbc:
+               build : 
+                 json : 
+                  -
+                     enable : true
+                     location : \\jdbc\\jdbc_build
+                     catalog : fadsan_school_ui
+                     source : DEV_DATA_SOURCE_UI
+                     role: update
+                  -
+                     enable : true
+                     location : \\jdbc\\jdbc_build
+                     catalog : fadsan_school_ui
+                     source : DEV_DATA_SOURCE_UI
+                     role: update
