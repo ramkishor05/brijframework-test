@@ -1,9 +1,9 @@
 package org.brijframework.beans;
 
 import org.brijframework.model.ModelBean;
+import org.brijframework.support.beans.Attribute;
+import org.brijframework.support.beans.Bean;
 import org.brijframework.support.model.Construct;
-import org.brijframework.support.model.Attribute;
-import org.brijframework.support.model.Bean;
 import org.brijframework.support.model.Logic;
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Param;

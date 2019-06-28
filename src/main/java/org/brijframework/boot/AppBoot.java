@@ -1,18 +1,24 @@
 package org.brijframework.boot;
 
-import java.io.File;
-import java.util.Properties;
-
+import org.apache.catalina.Host;
+import org.apache.catalina.LifecycleException;
+import org.apache.catalina.core.StandardHost;
+import org.apache.catalina.startup.Tomcat;
 import org.brijframework.context.ApplicationContext;
-import org.brijframework.util.resouces.YamlUtil;
+import org.brijframework.support.config.Application;
 
+@Application(paths="application-bootstrap.properties|application.properties")
 public class AppBoot {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws LifecycleException {
 		/*ApplicationContext context = new ApplicationContext();
-		context.startup();*/
-		Properties envproperties=YamlUtil.getEnvProperties(new File("E:\\brijframe\\brijframework-test\\src\\main\\resources\\application.yml"));
-		//System.out.println(envproperties.get("application.bootstrap.config.model.data"));
-		System.out.println(envproperties);
+		context.startup();
+		System.out.println(context.getProperties());
+		System.out.println(context.getConfigration().getProperties());*/
+		Tomcat tomcat=new Tomcat();
+		Host host=new StandardHost();
+		host.setName("localhost");
+		tomcat.setHost(host);
+		tomcat.start();
 	}
 }
