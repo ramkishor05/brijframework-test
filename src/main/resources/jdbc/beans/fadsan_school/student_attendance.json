@@ -1,0 +1,621 @@
+[ {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "3",
+  "attendance_date" : "2015-06-12",
+  "message" : "HII",
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-06-12",
+  "student_attendance_id" : 1
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "1",
+  "attendance_date" : "2015-06-24",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-06-24",
+  "student_attendance_id" : 23
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "2",
+  "attendance_date" : "2015-06-24",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-06-24",
+  "student_attendance_id" : 24
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "3",
+  "attendance_date" : "2015-06-24",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-06-24",
+  "student_attendance_id" : 25
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "2",
+  "attendance_date" : "2015-07-03",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-07-03",
+  "student_attendance_id" : 26
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "1",
+  "attendance_date" : "2015-07-15",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-07-15",
+  "student_attendance_id" : 27
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "2",
+  "attendance_date" : "2015-07-15",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-07-15",
+  "student_attendance_id" : 28
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "3",
+  "attendance_date" : "2015-07-15",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-07-15",
+  "student_attendance_id" : 29
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "4",
+  "attendance_date" : "2015-07-15",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-07-15",
+  "student_attendance_id" : 30
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "1",
+  "attendance_date" : "2015-07-16",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-07-16",
+  "student_attendance_id" : 31
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "2",
+  "attendance_date" : "2015-07-16",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-07-16",
+  "student_attendance_id" : 32
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "3",
+  "attendance_date" : "2015-07-16",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-07-16",
+  "student_attendance_id" : 33
+}, {
+  "section_id" : 29,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "4",
+  "attendance_date" : "2015-07-16",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-07-16",
+  "student_attendance_id" : 34
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "517",
+  "attendance_date" : "2015-08-20",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-08-20",
+  "student_attendance_id" : 35
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8080",
+  "attendance_date" : "2015-08-20",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-08-20",
+  "student_attendance_id" : 36
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8081",
+  "attendance_date" : "2015-08-20",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-08-20",
+  "student_attendance_id" : 37
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8131",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 38
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8130",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 39
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8132",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 40
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "517",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 41
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8080",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 42
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8081",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 43
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8082",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 44
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8083",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 45
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8084",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 46
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8085",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 47
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8086",
+  "attendance_date" : "2015-09-07",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-07",
+  "student_attendance_id" : 48
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8131",
+  "attendance_date" : "2015-09-08",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-08",
+  "student_attendance_id" : 49
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8130",
+  "attendance_date" : "2015-09-08",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-08",
+  "student_attendance_id" : 50
+}, {
+  "section_id" : 1,
+  "employee_id" : null,
+  "class_id" : 1,
+  "student_id" : "8132",
+  "attendance_date" : "2015-09-08",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-08",
+  "student_attendance_id" : 51
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "8135",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 52
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "8136",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 53
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1742",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 54
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1754",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 55
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1770",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 56
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1782",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 57
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1819",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 58
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1825",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 59
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1829",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 60
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1837",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 61
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1848",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 62
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1865",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 63
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1902",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 64
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1916",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 65
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1924",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 66
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "1926",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 67
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2086",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 68
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2023",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 69
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2077",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 70
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2092",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 71
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2305",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 72
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2351",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 73
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2355",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 74
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2569",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 75
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "3182",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 76
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2966",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 77
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2943",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 78
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "2935",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 79
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "3210",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 80
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "3286",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 81
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "3289",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 82
+}, {
+  "section_id" : 15,
+  "employee_id" : null,
+  "class_id" : 8,
+  "student_id" : "3294",
+  "attendance_date" : "2015-09-09",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-09-09",
+  "student_attendance_id" : 83
+} ]

@@ -1,0 +1,64 @@
+[ {
+  "USER_ID" : 1,
+  "ROLE_ID" : 1
+}, {
+  "USER_ID" : 24,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 25,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 26,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 27,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 28,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 33,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 34,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 37,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 39,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 40,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 41,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 42,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 43,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 44,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 45,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 46,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 47,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 48,
+  "ROLE_ID" : 2
+}, {
+  "USER_ID" : 29,
+  "ROLE_ID" : 3
+}, {
+  "USER_ID" : 38,
+  "ROLE_ID" : 3
+} ]

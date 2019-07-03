@@ -1,0 +1,21 @@
+[ {
+  "student_fee_submission_details_id" : 1,
+  "reciept_no" : 50501,
+  "cheque_no" : null,
+  "month_id" : 1,
+  "class_id" : 1,
+  "student_admission_number" : "8130",
+  "session_id" : 1,
+  "paid_amount_in_word" : "Five Thousand One Hundred ",
+  "gross_amount" : 0.0,
+  "school_bank_account" : null,
+  "fee_paid_date" : "2015-09-08",
+  "section_id" : 1,
+  "bank_name" : null,
+  "l_f_no" : 0,
+  "paid_amount" : 5100.0,
+  "common_reciept_no" : 1,
+  "paid_by" : "cash",
+  "fee_paid_status" : "completed",
+  "school_bank" : null
+} ]

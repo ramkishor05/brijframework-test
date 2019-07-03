@@ -1,0 +1,18 @@
+[ {
+  "payment_mode" : "Cash",
+  "is_active" : true,
+  "paid_status" : "Completed",
+  "receipt_no" : 50501,
+  "cheque_no" : null,
+  "supplier_no" : "ABC",
+  "discount" : 0,
+  "gross_amount" : 1000,
+  "stock_purchase_id" : 1,
+  "date_of_purchase" : "2015-09-08",
+  "dues" : 0,
+  "in_word" : "One Thousand ",
+  "balance_amount" : 0,
+  "bank_name" : null,
+  "paid_amount" : 1000,
+  "supplier_name" : "BAC"
+} ]

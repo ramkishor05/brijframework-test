@@ -1,0 +1,85 @@
+[ {
+  "sl_no" : null,
+  "class_id" : 1,
+  "class_name" : "Pre"
+}, {
+  "sl_no" : null,
+  "class_id" : 2,
+  "class_name" : "Nursury"
+}, {
+  "sl_no" : null,
+  "class_id" : 3,
+  "class_name" : "KG"
+}, {
+  "sl_no" : null,
+  "class_id" : 4,
+  "class_name" : "I"
+}, {
+  "sl_no" : null,
+  "class_id" : 5,
+  "class_name" : "II"
+}, {
+  "sl_no" : null,
+  "class_id" : 6,
+  "class_name" : "III"
+}, {
+  "sl_no" : null,
+  "class_id" : 7,
+  "class_name" : "IV"
+}, {
+  "sl_no" : null,
+  "class_id" : 8,
+  "class_name" : "V"
+}, {
+  "sl_no" : null,
+  "class_id" : 9,
+  "class_name" : "VI"
+}, {
+  "sl_no" : null,
+  "class_id" : 10,
+  "class_name" : "VII"
+}, {
+  "sl_no" : null,
+  "class_id" : 11,
+  "class_name" : "VIII"
+}, {
+  "sl_no" : null,
+  "class_id" : 12,
+  "class_name" : "IX"
+}, {
+  "sl_no" : null,
+  "class_id" : 13,
+  "class_name" : "X"
+}, {
+  "sl_no" : null,
+  "class_id" : 14,
+  "class_name" : "XI PCM"
+}, {
+  "sl_no" : null,
+  "class_id" : 15,
+  "class_name" : "XI PCB"
+}, {
+  "sl_no" : null,
+  "class_id" : 16,
+  "class_name" : "XI ARTS"
+}, {
+  "sl_no" : null,
+  "class_id" : 17,
+  "class_name" : "XI COM"
+}, {
+  "sl_no" : null,
+  "class_id" : 18,
+  "class_name" : "XII PCM"
+}, {
+  "sl_no" : null,
+  "class_id" : 19,
+  "class_name" : "XII PCB"
+}, {
+  "sl_no" : null,
+  "class_id" : 20,
+  "class_name" : "XII COM"
+}, {
+  "sl_no" : null,
+  "class_id" : 21,
+  "class_name" : "XII ARTS"
+} ]

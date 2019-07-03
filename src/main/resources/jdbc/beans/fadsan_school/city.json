@@ -1,0 +1,64 @@
+[ {
+  "city_name" : "Delhi",
+  "is_active" : true,
+  "updated_at" : 1417372200000,
+  "city_code" : "DL",
+  "created_at" : 1417372200000,
+  "state_id" : "4",
+  "country_id" : "1",
+  "city_id" : 4
+}, {
+  "city_name" : "Noida",
+  "is_active" : true,
+  "updated_at" : 1418409000000,
+  "city_code" : "1002",
+  "created_at" : 1418409000000,
+  "state_id" : "4",
+  "country_id" : "1",
+  "city_id" : 6
+}, {
+  "city_name" : "Faridabad",
+  "is_active" : true,
+  "updated_at" : 1421087400000,
+  "city_code" : "FBD",
+  "created_at" : 1421087400000,
+  "state_id" : "6",
+  "country_id" : "1",
+  "city_id" : 8
+}, {
+  "city_name" : "Gurgaon",
+  "is_active" : true,
+  "updated_at" : 1430159400000,
+  "city_code" : null,
+  "created_at" : 1430159400000,
+  "state_id" : "4",
+  "country_id" : "1",
+  "city_id" : 9
+}, {
+  "city_name" : "Ghaziabad",
+  "is_active" : true,
+  "updated_at" : 1430245800000,
+  "city_code" : null,
+  "created_at" : 1430245800000,
+  "state_id" : "5",
+  "country_id" : "1",
+  "city_id" : 10
+}, {
+  "city_name" : "NOIDA",
+  "is_active" : true,
+  "updated_at" : 1430332200000,
+  "city_code" : null,
+  "created_at" : 1430332200000,
+  "state_id" : "5",
+  "country_id" : "1",
+  "city_id" : 11
+}, {
+  "city_name" : "NOIDA",
+  "is_active" : true,
+  "updated_at" : 1430332200000,
+  "city_code" : null,
+  "created_at" : 1430332200000,
+  "state_id" : "5",
+  "country_id" : "1",
+  "city_id" : 12
+} ]

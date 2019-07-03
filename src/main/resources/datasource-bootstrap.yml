@@ -1,0 +1,49 @@
+# application
+---
+datasource:
+   name: Test User
+   bootstrap: 
+       config:
+          source:
+              model:
+                 json : 
+                    location : pojo\\models
+              beans:
+                 json : 
+                    location : pojo\\beans
+          jdbc:
+              model : 
+                backup : 
+                  json : 
+                  -
+                     enable : true
+                     location : jdbc\\models
+                     catalog : fadsan_school
+                     source : DRDO_CURRENT
+                     role: update
+                restore : 
+                   json : 
+                    -
+                     enable : true
+                     location : jdbc\\models
+                     catalog : drdo_db
+                     source : DRDO_NEW
+                     role: update
+              beans: 
+                backup : 
+                   json : 
+                    -
+                     enable : true
+                     location : jdbc\\beans
+                     catalog : fadsan_school
+                     source : DRDO_CURRENT
+                     role: update
+                restore : 
+                  json : 
+                    -
+                     enable : true
+                     location : jdbc\beans
+                     catalog : drdo_db
+                     source : DRDO_NEW
+                     role: update
+                  

@@ -1,0 +1,7 @@
+[ {
+  "employee_id" : 1,
+  "message" : null,
+  "attendance_status" : "L",
+  "date_of_attendance" : "2015-06-23",
+  "student_attendance_id" : 1
+} ]

@@ -1,0 +1,161 @@
+[ {
+  "section_id" : 1,
+  "section_name" : "A",
+  "class_id" : 1
+}, {
+  "section_id" : 2,
+  "section_name" : "A",
+  "class_id" : 2
+}, {
+  "section_id" : 3,
+  "section_name" : "A",
+  "class_id" : 3
+}, {
+  "section_id" : 4,
+  "section_name" : "A",
+  "class_id" : 4
+}, {
+  "section_id" : 5,
+  "section_name" : "B",
+  "class_id" : 4
+}, {
+  "section_id" : 6,
+  "section_name" : "A",
+  "class_id" : 5
+}, {
+  "section_id" : 7,
+  "section_name" : "B",
+  "class_id" : 5
+}, {
+  "section_id" : 8,
+  "section_name" : "C",
+  "class_id" : 5
+}, {
+  "section_id" : 9,
+  "section_name" : "A",
+  "class_id" : 6
+}, {
+  "section_id" : 10,
+  "section_name" : "B",
+  "class_id" : 6
+}, {
+  "section_id" : 11,
+  "section_name" : "C",
+  "class_id" : 6
+}, {
+  "section_id" : 12,
+  "section_name" : "A",
+  "class_id" : 7
+}, {
+  "section_id" : 13,
+  "section_name" : "B",
+  "class_id" : 7
+}, {
+  "section_id" : 14,
+  "section_name" : "C",
+  "class_id" : 7
+}, {
+  "section_id" : 15,
+  "section_name" : "A",
+  "class_id" : 8
+}, {
+  "section_id" : 16,
+  "section_name" : "B",
+  "class_id" : 8
+}, {
+  "section_id" : 17,
+  "section_name" : "A",
+  "class_id" : 9
+}, {
+  "section_id" : 18,
+  "section_name" : "B",
+  "class_id" : 9
+}, {
+  "section_id" : 19,
+  "section_name" : "A",
+  "class_id" : 10
+}, {
+  "section_id" : 20,
+  "section_name" : "B",
+  "class_id" : 10
+}, {
+  "section_id" : 21,
+  "section_name" : "A",
+  "class_id" : 11
+}, {
+  "section_id" : 22,
+  "section_name" : "B",
+  "class_id" : 11
+}, {
+  "section_id" : 23,
+  "section_name" : "C",
+  "class_id" : 11
+}, {
+  "section_id" : 24,
+  "section_name" : "A",
+  "class_id" : 12
+}, {
+  "section_id" : 25,
+  "section_name" : "B",
+  "class_id" : 12
+}, {
+  "section_id" : 26,
+  "section_name" : "A",
+  "class_id" : 13
+}, {
+  "section_id" : 27,
+  "section_name" : "A",
+  "class_id" : 14
+}, {
+  "section_id" : 28,
+  "section_name" : "B",
+  "class_id" : 15
+}, {
+  "section_id" : 29,
+  "section_name" : "F",
+  "class_id" : 15
+}, {
+  "section_id" : 30,
+  "section_name" : "E",
+  "class_id" : 16
+}, {
+  "section_id" : 31,
+  "section_name" : "C",
+  "class_id" : 17
+}, {
+  "section_id" : 32,
+  "section_name" : "D",
+  "class_id" : 17
+}, {
+  "section_id" : 33,
+  "section_name" : "A",
+  "class_id" : 18
+}, {
+  "section_id" : 34,
+  "section_name" : "B",
+  "class_id" : 18
+}, {
+  "section_id" : 35,
+  "section_name" : "C",
+  "class_id" : 20
+}, {
+  "section_id" : 36,
+  "section_name" : "D",
+  "class_id" : 20
+}, {
+  "section_id" : 37,
+  "section_name" : "E",
+  "class_id" : 21
+}, {
+  "section_id" : 38,
+  "section_name" : "C",
+  "class_id" : 9
+}, {
+  "section_id" : 39,
+  "section_name" : "C",
+  "class_id" : 12
+}, {
+  "section_id" : 40,
+  "section_name" : "B",
+  "class_id" : 13
+} ]

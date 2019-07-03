@@ -1,0 +1,18 @@
+[ {
+  "pay_date" : "2015-09-08",
+  "student_wise_fee_id" : 3,
+  "payment_mode" : "Cash",
+  "paid_status" : "Completed",
+  "receipt_no" : 1,
+  "cheque_no" : null,
+  "discount" : 0,
+  "student_id" : "8130",
+  "book_payment_id" : 1,
+  "dues" : 0,
+  "book_purchase_id" : 1,
+  "in_word" : "One Hundred Twenty ",
+  "total_amount" : 120,
+  "bank_name" : null,
+  "paid_amount" : 120,
+  "dues_receiptno" : 0
+} ]

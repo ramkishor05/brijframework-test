@@ -1,0 +1,9 @@
+[ {
+  "date" : 1441650600000,
+  "expenses_id" : 1,
+  "is_active" : true,
+  "expense_amount" : 1000.0,
+  "employee_name" : "VAsim",
+  "purpose_details" : "Bus",
+  "employee_role" : "Vasim"
+} ]

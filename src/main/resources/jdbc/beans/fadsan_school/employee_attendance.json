@@ -1,0 +1,43 @@
+[ {
+  "employee_id" : 1,
+  "employee_attendance_id" : 13,
+  "attendance_date" : "2015-06-24",
+  "message" : "Leave",
+  "attendance_status" : "A",
+  "date_of_attendance" : "2015-06-24"
+}, {
+  "employee_id" : 1,
+  "employee_attendance_id" : 14,
+  "attendance_date" : "2015-07-24",
+  "message" : "Present",
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-07-24"
+}, {
+  "employee_id" : 1,
+  "employee_attendance_id" : 15,
+  "attendance_date" : "2015-08-03",
+  "message" : "Present",
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-08-03"
+}, {
+  "employee_id" : 1,
+  "employee_attendance_id" : 16,
+  "attendance_date" : "2015-08-20",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-08-20"
+}, {
+  "employee_id" : 3,
+  "employee_attendance_id" : 17,
+  "attendance_date" : "2015-08-20",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-08-20"
+}, {
+  "employee_id" : 2,
+  "employee_attendance_id" : 18,
+  "attendance_date" : "2015-08-20",
+  "message" : null,
+  "attendance_status" : "P",
+  "date_of_attendance" : "2015-08-20"
+} ]

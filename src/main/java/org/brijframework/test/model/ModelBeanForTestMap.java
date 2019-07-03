@@ -12,7 +12,7 @@ public class ModelBeanForTestMap {
 	public static void main(String[] args) {
 		ModelContext context=new ModelContext();
 		context.init();
-		context.startup();
+		context.start();
 		Employee employee=new Employee();
 		//employee.setProperty("addresseMap", new HashMap<Integer, Address>());
 		employee.setProperty("addresseMap.01010", new Address());

@@ -1,0 +1,22 @@
+[ {
+  "country_code" : "1",
+  "is_active" : 1,
+  "updated_at" : 1417420800000,
+  "country_name" : "India",
+  "created_at" : 1417420800000,
+  "country_id" : 1
+}, {
+  "country_code" : null,
+  "is_active" : 1,
+  "updated_at" : 1430204400000,
+  "country_name" : "Nepal",
+  "created_at" : 1430204400000,
+  "country_id" : 3
+}, {
+  "country_code" : null,
+  "is_active" : 1,
+  "updated_at" : 1441650600000,
+  "country_name" : "Aus",
+  "created_at" : 1441650600000,
+  "country_id" : 4
+} ]

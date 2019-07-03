@@ -1,0 +1,26 @@
+[
+
+   {
+	 "id" :"DRDO_CURRENT",
+	 "model":"DATA_SOURCE",
+	 "name": "DataSource",
+	 "properties":{
+	    "driverClassName":"com.mysql.cj.jdbc.Driver",
+	    "url":"jdbc:mysql://localhost:3306/",
+	    "username":"root",
+	    "password":"root",
+	    "defaultCatalog":"fadsan_school"
+	 }
+   },
+   {
+	 "id" :"DRDO_NEW",
+	 "model":"DATA_SOURCE",
+	 "name": "DataSource",
+	 "properties":{
+	    "driverClassName":"com.mysql.cj.jdbc.Driver",
+	    "url":"jdbc:mysql://localhost:3306/",
+	    "username":"root",
+	    "password":"root"
+	 }
+   }
+]

@@ -1,0 +1,31 @@
+[ {
+  "charcter" : "GOOD",
+  "full_name" : "DEMO ENQUIRY ",
+  "section_id" : "1",
+  "class_id" : "1",
+  "active" : true,
+  "created_at" : 1440162991000,
+  "session_id" : "1",
+  "character_id" : 4,
+  "studnet_id" : "8131"
+}, {
+  "charcter" : "Good",
+  "full_name" : "Kanak Bhati ",
+  "section_id" : "1",
+  "class_id" : "1",
+  "active" : true,
+  "created_at" : 1441630105000,
+  "session_id" : "1",
+  "character_id" : 5,
+  "studnet_id" : "8082"
+}, {
+  "charcter" : "Good",
+  "full_name" : "DEMO ENQUIRY ",
+  "section_id" : "1",
+  "class_id" : "1",
+  "active" : true,
+  "created_at" : 1441690728000,
+  "session_id" : "1",
+  "character_id" : 6,
+  "studnet_id" : "8131"
+} ]

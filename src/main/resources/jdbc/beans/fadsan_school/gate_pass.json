@@ -1,0 +1,49 @@
+[ {
+  "leaving_time" : "12:51:03",
+  "reason" : "TYUJH",
+  "is_active" : true,
+  "gate_pass_id" : 1,
+  "leaving_with" : "Father",
+  "leaving_date" : "2015-08-20",
+  "admission_no" : "3221"
+}, {
+  "leaving_time" : "12:16:30",
+  "reason" : "ABC",
+  "is_active" : true,
+  "gate_pass_id" : 2,
+  "leaving_with" : "Father",
+  "leaving_date" : "2015-08-22",
+  "admission_no" : "3123"
+}, {
+  "leaving_time" : "12:16:49",
+  "reason" : "acx",
+  "is_active" : true,
+  "gate_pass_id" : 3,
+  "leaving_with" : "Father",
+  "leaving_date" : "2015-08-22",
+  "admission_no" : "10"
+}, {
+  "leaving_time" : "17:17:22",
+  "reason" : "xfdf",
+  "is_active" : true,
+  "gate_pass_id" : 4,
+  "leaving_with" : "Father",
+  "leaving_date" : "2015-08-22",
+  "admission_no" : "10"
+}, {
+  "leaving_time" : "17:19:19",
+  "reason" : "sdfd",
+  "is_active" : true,
+  "gate_pass_id" : 5,
+  "leaving_with" : "Father",
+  "leaving_date" : "2015-08-22",
+  "admission_no" : "8131"
+}, {
+  "leaving_time" : "17:23:00",
+  "reason" : "sdfdsfd",
+  "is_active" : true,
+  "gate_pass_id" : 6,
+  "leaving_with" : "Father",
+  "leaving_date" : "2015-08-22",
+  "admission_no" : "8131"
+} ]

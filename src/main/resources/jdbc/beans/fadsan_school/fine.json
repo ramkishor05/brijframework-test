@@ -1,0 +1,7 @@
+[ {
+  "fine_name" : "Late Fee Fine",
+  "fine_id" : 1,
+  "max_fine_amount" : 100,
+  "session_id" : 1,
+  "fine_amount" : 10
+} ]

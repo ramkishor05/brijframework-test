@@ -1,0 +1,41 @@
+[ {
+  "student_wise_fee_id" : 1,
+  "fee_amount" : 150.0,
+  "is_active" : true,
+  "category_id" : 13,
+  "section_id" : 6,
+  "month_id" : 3,
+  "class_id" : 5,
+  "session_id" : 1,
+  "student_id" : "2881"
+}, {
+  "student_wise_fee_id" : 2,
+  "fee_amount" : 600.0,
+  "is_active" : true,
+  "category_id" : 13,
+  "section_id" : 1,
+  "month_id" : 3,
+  "class_id" : 1,
+  "session_id" : 1,
+  "student_id" : "8131"
+}, {
+  "student_wise_fee_id" : 3,
+  "fee_amount" : 0.0,
+  "is_active" : true,
+  "category_id" : 15,
+  "section_id" : 1,
+  "month_id" : 3,
+  "class_id" : 1,
+  "session_id" : 1,
+  "student_id" : "8130"
+}, {
+  "student_wise_fee_id" : 4,
+  "fee_amount" : 1000.0,
+  "is_active" : true,
+  "category_id" : 13,
+  "section_id" : 1,
+  "month_id" : 2,
+  "class_id" : 1,
+  "session_id" : 1,
+  "student_id" : "8130"
+} ]

@@ -1,0 +1,41 @@
+[ {
+  "is_active" : true,
+  "updated_at" : 1418409000000,
+  "state_name" : "Delhi NCR",
+  "created_at" : 1417372200000,
+  "state_id" : 4,
+  "state_code" : "1",
+  "country_id" : "1"
+}, {
+  "is_active" : true,
+  "updated_at" : 1420137000000,
+  "state_name" : "Uttar Pradesh",
+  "created_at" : 1420137000000,
+  "state_id" : 5,
+  "state_code" : "UP",
+  "country_id" : "1"
+}, {
+  "is_active" : true,
+  "updated_at" : 1421087400000,
+  "state_name" : "Haryana",
+  "created_at" : 1421087400000,
+  "state_id" : 6,
+  "state_code" : "HR",
+  "country_id" : "1"
+}, {
+  "is_active" : true,
+  "updated_at" : 1430159400000,
+  "state_name" : "Punjab",
+  "created_at" : 1430159400000,
+  "state_id" : 8,
+  "state_code" : null,
+  "country_id" : "1"
+}, {
+  "is_active" : true,
+  "updated_at" : 1441650600000,
+  "state_name" : "Mac",
+  "created_at" : 1441650600000,
+  "state_id" : 9,
+  "state_code" : null,
+  "country_id" : "4"
+} ]

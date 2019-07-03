@@ -1,0 +1,13 @@
+[ {
+  "recentPaidTransportAmount" : "1000.0",
+  "is_active" : true,
+  "common_reciptNo" : "1",
+  "transportId" : 1,
+  "total_amount" : 10000.0,
+  "recipt_no" : "50501",
+  "month_id" : 1,
+  "dueTransportAmount" : "9000.0",
+  "student_feeSubmissionId" : 1,
+  "student_id" : "8130",
+  "fee_paid_date" : null
+} ]

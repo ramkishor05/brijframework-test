@@ -19,26 +19,19 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.brijframework</groupId>
 			<artifactId>brijframework-boot</artifactId>
 			<version>0.0.1</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-core</artifactId>
-			<version>9.0.21</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.brijframework</groupId>
 			<artifactId>brijframework-builder</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.brijframework</groupId>
+			<artifactId>brijframework-bean</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
@@ -51,6 +44,21 @@
 			<artifactId>brijframework-jdbc</artifactId>
 			<version>0.0.1</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		
+	    <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+			<version>9.0.21</version>
+		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-jdk8 -->
 		<dependency>
 			<groupId>org.mapstruct</groupId>

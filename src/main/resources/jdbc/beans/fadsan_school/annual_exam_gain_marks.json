@@ -1,0 +1,781 @@
+[ {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 1,
+  "annual_exam_report_id" : 1,
+  "gain_marks" : 20.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 2,
+  "annual_exam_report_id" : 1,
+  "gain_marks" : 55.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 3,
+  "annual_exam_report_id" : 2,
+  "gain_marks" : 75.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 4,
+  "annual_exam_report_id" : 2,
+  "gain_marks" : 36.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 5,
+  "annual_exam_report_id" : 3,
+  "gain_marks" : 83.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 6,
+  "annual_exam_report_id" : 3,
+  "gain_marks" : 55.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 7,
+  "annual_exam_report_id" : 4,
+  "gain_marks" : 88.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 8,
+  "annual_exam_report_id" : 4,
+  "gain_marks" : 74.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 9,
+  "annual_exam_report_id" : 5,
+  "gain_marks" : 60.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 10,
+  "annual_exam_report_id" : 5,
+  "gain_marks" : 75.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 11,
+  "annual_exam_report_id" : 6,
+  "gain_marks" : 63.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 12,
+  "annual_exam_report_id" : 6,
+  "gain_marks" : 66.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 13,
+  "annual_exam_report_id" : 7,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 14,
+  "annual_exam_report_id" : 7,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 15,
+  "annual_exam_report_id" : 8,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 16,
+  "annual_exam_report_id" : 8,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 17,
+  "annual_exam_report_id" : 9,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 18,
+  "annual_exam_report_id" : 9,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 19,
+  "annual_exam_report_id" : 10,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 20,
+  "annual_exam_report_id" : 10,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 21,
+  "annual_exam_report_id" : 11,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 22,
+  "annual_exam_report_id" : 11,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 23,
+  "annual_exam_report_id" : 12,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 24,
+  "annual_exam_report_id" : 12,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 25,
+  "annual_exam_report_id" : 13,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 26,
+  "annual_exam_report_id" : 13,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 27,
+  "annual_exam_report_id" : 14,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 28,
+  "annual_exam_report_id" : 14,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 29,
+  "annual_exam_report_id" : 15,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 30,
+  "annual_exam_report_id" : 15,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 31,
+  "annual_exam_report_id" : 16,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 32,
+  "annual_exam_report_id" : 16,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 33,
+  "annual_exam_report_id" : 17,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 34,
+  "annual_exam_report_id" : 17,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 35,
+  "annual_exam_report_id" : 18,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 36,
+  "annual_exam_report_id" : 18,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 37,
+  "annual_exam_report_id" : 19,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 38,
+  "annual_exam_report_id" : 19,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 39,
+  "annual_exam_report_id" : 20,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 40,
+  "annual_exam_report_id" : 20,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 41,
+  "annual_exam_report_id" : 21,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 42,
+  "annual_exam_report_id" : 21,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 43,
+  "annual_exam_report_id" : 22,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 44,
+  "annual_exam_report_id" : 22,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 45,
+  "annual_exam_report_id" : 23,
+  "gain_marks" : 20.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 46,
+  "annual_exam_report_id" : 23,
+  "gain_marks" : 20.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 47,
+  "annual_exam_report_id" : 24,
+  "gain_marks" : 20.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 48,
+  "annual_exam_report_id" : 24,
+  "gain_marks" : 20.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 49,
+  "annual_exam_report_id" : 25,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 50,
+  "annual_exam_report_id" : 25,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 51,
+  "annual_exam_report_id" : 26,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 52,
+  "annual_exam_report_id" : 26,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 53,
+  "annual_exam_report_id" : 27,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 54,
+  "annual_exam_report_id" : 27,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 55,
+  "annual_exam_report_id" : 28,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 56,
+  "annual_exam_report_id" : 28,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 57,
+  "annual_exam_report_id" : 29,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 58,
+  "annual_exam_report_id" : 29,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 59,
+  "annual_exam_report_id" : 30,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 60,
+  "annual_exam_report_id" : 30,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 61,
+  "annual_exam_report_id" : 31,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 62,
+  "annual_exam_report_id" : 31,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 63,
+  "annual_exam_report_id" : 32,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 64,
+  "annual_exam_report_id" : 32,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 65,
+  "annual_exam_report_id" : 33,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 66,
+  "annual_exam_report_id" : 33,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 67,
+  "annual_exam_report_id" : 34,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 68,
+  "annual_exam_report_id" : 34,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 69,
+  "annual_exam_report_id" : 35,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 70,
+  "annual_exam_report_id" : 35,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 71,
+  "annual_exam_report_id" : 36,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 72,
+  "annual_exam_report_id" : 36,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 73,
+  "annual_exam_report_id" : 37,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 74,
+  "annual_exam_report_id" : 37,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 75,
+  "annual_exam_report_id" : 38,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 76,
+  "annual_exam_report_id" : 38,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 77,
+  "annual_exam_report_id" : 39,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 78,
+  "annual_exam_report_id" : 39,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 79,
+  "annual_exam_report_id" : 40,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 80,
+  "annual_exam_report_id" : 40,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 81,
+  "annual_exam_report_id" : 41,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 82,
+  "annual_exam_report_id" : 41,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 83,
+  "annual_exam_report_id" : 42,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 84,
+  "annual_exam_report_id" : 42,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 85,
+  "annual_exam_report_id" : 43,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 86,
+  "annual_exam_report_id" : 43,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 1,
+  "annual_exam_gain_marks_id" : 87,
+  "annual_exam_report_id" : 44,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 2,
+  "annual_exam_gain_marks_id" : 88,
+  "annual_exam_report_id" : 44,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 89,
+  "annual_exam_report_id" : 45,
+  "gain_marks" : 50.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 90,
+  "annual_exam_report_id" : 45,
+  "gain_marks" : 90.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 91,
+  "annual_exam_report_id" : 46,
+  "gain_marks" : 33.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 92,
+  "annual_exam_report_id" : 46,
+  "gain_marks" : 75.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 93,
+  "annual_exam_report_id" : 47,
+  "gain_marks" : 15.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 94,
+  "annual_exam_report_id" : 47,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 95,
+  "annual_exam_report_id" : 48,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 96,
+  "annual_exam_report_id" : 48,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 97,
+  "annual_exam_report_id" : 49,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 98,
+  "annual_exam_report_id" : 49,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 99,
+  "annual_exam_report_id" : 50,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 100,
+  "annual_exam_report_id" : 50,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 101,
+  "annual_exam_report_id" : 51,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 102,
+  "annual_exam_report_id" : 51,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 103,
+  "annual_exam_report_id" : 52,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 104,
+  "annual_exam_report_id" : 52,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 105,
+  "annual_exam_report_id" : 53,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 106,
+  "annual_exam_report_id" : 53,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 107,
+  "annual_exam_report_id" : 54,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 108,
+  "annual_exam_report_id" : 54,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 109,
+  "annual_exam_report_id" : 55,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 110,
+  "annual_exam_report_id" : 55,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 111,
+  "annual_exam_report_id" : 56,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 112,
+  "annual_exam_report_id" : 56,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 113,
+  "annual_exam_report_id" : 57,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 114,
+  "annual_exam_report_id" : 57,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 115,
+  "annual_exam_report_id" : 58,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 116,
+  "annual_exam_report_id" : 58,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 117,
+  "annual_exam_report_id" : 59,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 118,
+  "annual_exam_report_id" : 59,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 119,
+  "annual_exam_report_id" : 60,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 120,
+  "annual_exam_report_id" : 60,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 121,
+  "annual_exam_report_id" : 61,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 122,
+  "annual_exam_report_id" : 61,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 123,
+  "annual_exam_report_id" : 62,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 124,
+  "annual_exam_report_id" : 62,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 125,
+  "annual_exam_report_id" : 63,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 126,
+  "annual_exam_report_id" : 63,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 127,
+  "annual_exam_report_id" : 64,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 128,
+  "annual_exam_report_id" : 64,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 129,
+  "annual_exam_report_id" : 65,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 130,
+  "annual_exam_report_id" : 65,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 131,
+  "annual_exam_report_id" : 66,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 132,
+  "annual_exam_report_id" : 66,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 133,
+  "annual_exam_report_id" : 67,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 134,
+  "annual_exam_report_id" : 67,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 135,
+  "annual_exam_report_id" : 68,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 136,
+  "annual_exam_report_id" : 68,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 137,
+  "annual_exam_report_id" : 69,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 138,
+  "annual_exam_report_id" : 69,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 139,
+  "annual_exam_report_id" : 70,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 140,
+  "annual_exam_report_id" : 70,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 141,
+  "annual_exam_report_id" : 71,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 142,
+  "annual_exam_report_id" : 71,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 143,
+  "annual_exam_report_id" : 72,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 144,
+  "annual_exam_report_id" : 72,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 145,
+  "annual_exam_report_id" : 73,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 146,
+  "annual_exam_report_id" : 73,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 147,
+  "annual_exam_report_id" : 74,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 148,
+  "annual_exam_report_id" : 74,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 149,
+  "annual_exam_report_id" : 75,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 150,
+  "annual_exam_report_id" : 75,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 151,
+  "annual_exam_report_id" : 76,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 152,
+  "annual_exam_report_id" : 76,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 153,
+  "annual_exam_report_id" : 77,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 154,
+  "annual_exam_report_id" : 77,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 3,
+  "annual_exam_gain_marks_id" : 155,
+  "annual_exam_report_id" : 78,
+  "gain_marks" : 0.0
+}, {
+  "subject_id" : 4,
+  "annual_exam_gain_marks_id" : 156,
+  "annual_exam_report_id" : 78,
+  "gain_marks" : 0.0
+} ]

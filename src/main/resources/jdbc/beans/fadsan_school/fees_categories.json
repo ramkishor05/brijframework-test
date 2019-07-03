@@ -1,0 +1,37 @@
+[ {
+  "fee_category_id" : 1,
+  "is_active" : true,
+  "fee_category_name" : "Tution Fee"
+}, {
+  "fee_category_id" : 4,
+  "is_active" : true,
+  "fee_category_name" : "Admission Fee"
+}, {
+  "fee_category_id" : 5,
+  "is_active" : true,
+  "fee_category_name" : "Annual Fee"
+}, {
+  "fee_category_id" : 6,
+  "is_active" : true,
+  "fee_category_name" : "Transport Fee"
+}, {
+  "fee_category_id" : 7,
+  "is_active" : true,
+  "fee_category_name" : "Fine"
+}, {
+  "fee_category_id" : 13,
+  "is_active" : true,
+  "fee_category_name" : "Any Other Dues"
+}, {
+  "fee_category_id" : 14,
+  "is_active" : true,
+  "fee_category_name" : "Uniform Fees"
+}, {
+  "fee_category_id" : 15,
+  "is_active" : true,
+  "fee_category_name" : "Book Fees"
+}, {
+  "fee_category_id" : 16,
+  "is_active" : false,
+  "fee_category_name" : "Day-Boarding Charge"
+} ]

@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.brijframework.model.ModelBean;
+import org.brijframework.bean.BeanObject;
 import org.brijframework.support.enums.Formula;
 import org.brijframework.support.enums.Wiring;
 import org.brijframework.support.model.Construct;
@@ -24,7 +24,7 @@ import org.brijframework.util.support.Access;
 @Model(access = Access.PUBLIC, constructor = @Construct(params = {
 		@Param(type = long.class, value = "1", index = 2), @Param(type = String.class, value = "1", index = 0),
 		@Param(type = String.class, value = "Ram", index = 1) }))
-public class Employee implements ModelBean {
+public class Employee implements BeanObject {
 	/**
 	 * 
 	 */

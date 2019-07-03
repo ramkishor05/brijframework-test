@@ -1,6 +1,6 @@
 package org.brijframework.beans;
 
-import org.brijframework.model.ModelBean;
+import org.brijframework.bean.BeanObject;
 import org.brijframework.support.beans.Attribute;
 import org.brijframework.support.beans.Bean;
 import org.brijframework.support.model.Construct;
@@ -21,7 +21,7 @@ import org.brijframework.util.support.Access;
 	@Attribute(name = "line", value = "noida"),
 	@Attribute(name = "landMark", value = "Globel")
 })
-public class Address implements ModelBean {
+public class Address implements BeanObject {
 	/**
 	 * 
 	 */
@@ -69,6 +69,6 @@ public class Address implements ModelBean {
 	@Override
 	public <T> T setProperty(String _keyPath, T _value) {
 		System.out.println("Address ppt call");
-		return ModelBean.super.setProperty(_keyPath, _value);
+		return BeanObject.super.setProperty(_keyPath, _value);
 	}
 }

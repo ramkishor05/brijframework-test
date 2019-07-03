@@ -1,0 +1,16 @@
+[ {
+  "is_active" : true,
+  "current_session" : true,
+  "session_id" : 1,
+  "session_duration" : "2015-2016"
+}, {
+  "is_active" : true,
+  "current_session" : false,
+  "session_id" : 2,
+  "session_duration" : "2014-2015"
+}, {
+  "is_active" : true,
+  "current_session" : false,
+  "session_id" : 3,
+  "session_duration" : "2016-2017"
+} ]

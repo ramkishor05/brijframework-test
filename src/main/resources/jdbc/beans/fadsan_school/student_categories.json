@@ -1,0 +1,21 @@
+[ {
+  "student_categories_id" : 1,
+  "is_active" : true,
+  "student_categories_name" : "OBC"
+}, {
+  "student_categories_id" : 2,
+  "is_active" : true,
+  "student_categories_name" : "General"
+}, {
+  "student_categories_id" : 3,
+  "is_active" : true,
+  "student_categories_name" : "SC"
+}, {
+  "student_categories_id" : 4,
+  "is_active" : true,
+  "student_categories_name" : "ST"
+}, {
+  "student_categories_id" : 5,
+  "is_active" : false,
+  "student_categories_name" : "ABC"
+} ]

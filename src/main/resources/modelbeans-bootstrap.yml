@@ -1,0 +1,17 @@
+# application
+---
+application:
+   name: Test User
+   bootstrap: 
+       config:
+          pojo:
+            beans:
+                json :
+                  -
+                   enable : true
+                   location : classpath:\pojo\beans\
+            model:
+                json :
+                  -
+                   enable : true
+                   location : classpath:\pojo\models\

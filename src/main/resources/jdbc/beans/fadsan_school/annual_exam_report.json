@@ -1,0 +1,703 @@
+[ {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 1,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8131"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 2,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8130"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 3,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8132"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 4,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "517"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 5,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8080"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 6,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8081"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 7,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8082"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 8,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8083"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 9,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8084"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 10,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8085"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 11,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8086"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 12,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8087"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 13,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8088"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 14,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8089"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 15,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8090"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 16,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8091"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 17,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8092"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 18,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8093"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 19,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8094"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 20,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8095"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 21,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8096"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 22,
+  "class_id" : 1,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8097"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 23,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8131"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 24,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8130"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 25,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8132"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 26,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "517"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 27,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8080"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 28,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8081"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 29,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8082"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 30,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8083"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 31,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8084"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 32,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8085"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 33,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8086"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 34,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8087"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 35,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8088"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 36,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8089"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 37,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8090"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 38,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8091"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 39,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8092"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 40,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8093"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 41,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8094"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 42,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8095"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 43,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8096"
+}, {
+  "exam_type" : "MAIN EXAM",
+  "max_marks" : 100.0,
+  "section_id" : 1,
+  "annual_exam_report_id" : 44,
+  "class_id" : 1,
+  "annual_exam_type" : "ANNUALLY",
+  "session_id" : 1,
+  "student_id" : "8097"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 45,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8135"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 46,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "8136"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 47,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1742"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 48,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1754"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 49,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1770"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 50,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1782"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 51,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1819"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 52,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1825"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 53,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1829"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 54,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1837"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 55,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1848"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 56,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1865"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 57,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1885"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 58,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1902"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 59,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1916"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 60,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1922"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 61,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1924"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 62,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "1926"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 63,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2023"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 64,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2077"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 65,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2086"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 66,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2092"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 67,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2305"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 68,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2351"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 69,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2355"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 70,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2569"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 71,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2935"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 72,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2943"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 73,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "2966"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 74,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "3182"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 75,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "3210"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 76,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "3286"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 77,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "3289"
+}, {
+  "exam_type" : "UT+ORAL+PROJECT",
+  "max_marks" : 100.0,
+  "section_id" : 15,
+  "annual_exam_report_id" : 78,
+  "class_id" : 8,
+  "annual_exam_type" : "HALF-YEARLY",
+  "session_id" : 1,
+  "student_id" : "3294"
+} ]

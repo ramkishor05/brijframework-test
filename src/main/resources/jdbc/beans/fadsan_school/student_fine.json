@@ -1,0 +1,15 @@
+[ {
+  "fine_name" : "Fine",
+  "from_date" : null,
+  "class_id" : 1,
+  "created_at" : 1441692877000,
+  "student_id" : "8130",
+  "student_fine_id" : 1,
+  "last_date" : null,
+  "student_fee_sub_detail_id" : 1,
+  "to_date" : null,
+  "updated_at" : null,
+  "section_id" : 1,
+  "fine_amount" : "100",
+  "is_paid" : true
+} ]

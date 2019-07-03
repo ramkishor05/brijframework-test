@@ -1,0 +1,21 @@
+[ {
+  "salary_amount" : 1000,
+  "is_active" : true,
+  "cheque_no" : null,
+  "month_id" : 4,
+  "salary_paid_status" : "Completed",
+  "session_id" : 1,
+  "paid_amount_in_word" : "One Thousand ",
+  "salary" : 1000,
+  "advance" : 0,
+  "incentive" : 0,
+  "slip_no" : 50501,
+  "date_of_payment" : "2015-08-21",
+  "due" : 0,
+  "employee_id" : 1,
+  "bank_name" : null,
+  "paid_amount" : 1000,
+  "fine_amount" : 0,
+  "employee_salary_id" : 1,
+  "paid_by" : "cash"
+} ]

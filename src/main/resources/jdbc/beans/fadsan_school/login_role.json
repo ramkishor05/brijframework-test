@@ -1,0 +1,21 @@
+[ {
+  "DESCRIPTION" : "Adminstrator",
+  "ID" : 1,
+  "NAME" : "ROLE_ADMIN"
+}, {
+  "DESCRIPTION" : "Student",
+  "ID" : 2,
+  "NAME" : "ROLE_STUDENT"
+}, {
+  "DESCRIPTION" : "Employee",
+  "ID" : 3,
+  "NAME" : "ROLE_EMPLOYEE"
+}, {
+  "DESCRIPTION" : "Parents",
+  "ID" : 4,
+  "NAME" : "ROLE_PARENTS"
+}, {
+  "DESCRIPTION" : "Branch",
+  "ID" : 5,
+  "NAME" : "ROLE_BRANCH"
+} ]
