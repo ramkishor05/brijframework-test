@@ -19,16 +19,23 @@ datasource:
                      enable : true
                      location : jdbc\\models
                      catalog : fadsan_school
-                     source : DRDO_CURRENT
+                     source : fadsan_school_source
                      role: update
                 restore : 
                    json : 
                     -
                      enable : true
                      location : jdbc\\models
-                     catalog : drdo_db
-                     source : DRDO_NEW
+                     catalog : fadsan_school_db
+                     source : fadsan_school_db_source
                      role: update
+                diff : 
+                  json : 
+                   -
+                     enable : true
+                     location : jdbc\\diffs
+                     catalogLeft  : fadsan_school
+                     catalogRight : fadsan_school_db
               beans: 
                 backup : 
                    json : 
@@ -36,14 +43,14 @@ datasource:
                      enable : true
                      location : jdbc\\beans
                      catalog : fadsan_school
-                     source : DRDO_CURRENT
+                     source : fadsan_school_source
                      role: update
                 restore : 
                   json : 
                     -
-                     enable : true
+                     enable : false
                      location : jdbc\beans
-                     catalog : drdo_db
-                     source : DRDO_NEW
+                     catalog : fadsan_school_db
+                     source : fadsan_school_db_source
                      role: update
                   
