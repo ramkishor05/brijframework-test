@@ -1,10 +1,10 @@
 {
-  "id" : "DEV_DATA_SOURCE.fadsan_school",
-  "sourceCat" : "DEV_DATA_SOURCE",
+  "id" : "fadsan_school",
+  "sourceCat" : "fadsan_school_source",
   "tableCat" : "fadsan_school",
   "tables" : {
     "country" : {
-      "id" : "fadsan_school.country",
+      "id" : "country",
       "tableCat" : "fadsan_school",
       "tableName" : "country",
       "selfReferencingColName" : null,
@@ -185,7 +185,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "country_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "country",
+          "columnName" : "country_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "country_id" : {
           "id" : "country_id",
           "pktableCat" : "fadsan_school",
@@ -204,10 +216,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "country_id" : {
+          "id" : "country_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "country",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "country_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 11,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "dress" : {
-      "id" : "fadsan_school.dress",
+      "id" : "dress",
       "tableCat" : "fadsan_school",
       "tableName" : "dress",
       "selfReferencingColName" : null,
@@ -360,7 +390,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "dress_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "dress",
+          "columnName" : "dress_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "dress_id" : {
           "id" : "dress_id",
           "pktableCat" : "fadsan_school",
@@ -379,10 +421,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "dress_id" : {
+          "id" : "dress_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "dress",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "dress_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "monthly_exam_report" : {
-      "id" : "fadsan_school.monthly_exam_report",
+      "id" : "monthly_exam_report",
       "tableCat" : "fadsan_school",
       "tableName" : "monthly_exam_report",
       "selfReferencingColName" : null,
@@ -703,7 +763,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "monthly_exam_report_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "monthly_exam_report",
+          "columnName" : "monthly_exam_report_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "subject_id" : {
           "id" : "subject_id",
           "pktableCat" : "fadsan_school",
@@ -807,10 +880,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "monthly_exam_report_id" : {
+          "id" : "monthly_exam_report_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "monthly_exam_report",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "monthly_exam_report_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 44,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "document_category" : {
-      "id" : "fadsan_school.document_category",
+      "id" : "document_category",
       "tableCat" : "fadsan_school",
       "tableName" : "document_category",
       "selfReferencingColName" : null,
@@ -935,7 +1025,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "document_category_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "document_category",
+          "columnName" : "document_category_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "document_category_id" : {
           "id" : "document_category_id",
           "pktableCat" : "fadsan_school",
@@ -954,10 +1056,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "document_category_id" : {
+          "id" : "document_category_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "document_category",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "document_category_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "fee" : {
-      "id" : "fadsan_school.fee",
+      "id" : "fee",
       "tableCat" : "fadsan_school",
       "tableName" : "fee",
       "selfReferencingColName" : null,
@@ -1754,11 +1874,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "fee_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fee",
+          "columnName" : "fee_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "fee_id" : {
+          "id" : "fee_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fee",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "fee_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "discount" : {
-      "id" : "fadsan_school.discount",
+      "id" : "discount",
       "tableCat" : "fadsan_school",
       "tableName" : "discount",
       "selfReferencingColName" : null,
@@ -1967,7 +2117,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "discount_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "discount",
+          "columnName" : "discount_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_fee_submission_details_id" : {
           "id" : "student_fee_submission_details_id",
           "pktableCat" : "fadsan_school",
@@ -2003,10 +2166,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "discount_id" : {
+          "id" : "discount_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "discount",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "discount_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "section" : {
-      "id" : "fadsan_school.section",
+      "id" : "section",
       "tableCat" : "fadsan_school",
       "tableName" : "section",
       "selfReferencingColName" : null,
@@ -2103,7 +2283,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "section_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "section",
+          "columnName" : "section_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "section_id" : {
           "id" : "section_id",
           "pktableCat" : "fadsan_school",
@@ -2120,7 +2312,9 @@
           "fkName" : "FK84A050C7AA42F28B",
           "pkName" : null,
           "deferrability" : "7"
-        },
+        }
+      },
+      "importedKeys" : {
         "class_id" : {
           "id" : "class_id",
           "pktableCat" : "fadsan_school",
@@ -2139,10 +2333,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "section_id" : {
+          "id" : "section_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "section",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "section_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 40,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "bank_setting" : {
-      "id" : "fadsan_school.bank_setting",
+      "id" : "bank_setting",
       "tableCat" : "fadsan_school",
       "tableName" : "bank_setting",
       "selfReferencingColName" : null,
@@ -2267,11 +2478,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "bank_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "bank_setting",
+          "columnName" : "bank_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "bank_id" : {
+          "id" : "bank_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "bank_setting",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "bank_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "branch" : {
-      "id" : "fadsan_school.branch",
+      "id" : "branch",
       "tableCat" : "fadsan_school",
       "tableName" : "branch",
       "selfReferencingColName" : null,
@@ -2704,11 +2945,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "branch_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "branch",
+          "columnName" : "branch_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "branch_id" : {
+          "id" : "branch_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "branch",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "branch_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "dress_payment" : {
-      "id" : "fadsan_school.dress_payment",
+      "id" : "dress_payment",
       "tableCat" : "fadsan_school",
       "tableName" : "dress_payment",
       "selfReferencingColName" : null,
@@ -3225,7 +3496,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "dress_payment_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "dress_payment",
+          "columnName" : "dress_payment_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "product_purchase_id" : {
           "id" : "product_purchase_id",
           "pktableCat" : "fadsan_school",
@@ -3295,10 +3579,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "dress_payment_id" : {
+          "id" : "dress_payment_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "dress_payment",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "dress_payment_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "edit_fee_amount" : {
-      "id" : "fadsan_school.edit_fee_amount",
+      "id" : "edit_fee_amount",
       "tableCat" : "fadsan_school",
       "tableName" : "edit_fee_amount",
       "selfReferencingColName" : null,
@@ -3591,7 +3892,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "edit_fee_amount_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "edit_fee_amount",
+          "columnName" : "edit_fee_amount_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "fee_category_id" : {
           "id" : "fee_category_id",
           "pktableCat" : "fadsan_school",
@@ -3695,10 +4009,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "edit_fee_amount_id" : {
+          "id" : "edit_fee_amount_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "edit_fee_amount",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "edit_fee_amount_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "fine" : {
-      "id" : "fadsan_school.fine",
+      "id" : "fine",
       "tableCat" : "fadsan_school",
       "tableName" : "fine",
       "selfReferencingColName" : null,
@@ -3851,7 +4182,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "fine_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fine",
+          "columnName" : "fine_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "session_id" : {
           "id" : "session_id",
           "pktableCat" : "fadsan_school",
@@ -3870,10 +4214,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "fine_id" : {
+          "id" : "fine_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fine",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "fine_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "supplier" : {
-      "id" : "fadsan_school.supplier",
+      "id" : "supplier",
       "tableCat" : "fadsan_school",
       "tableName" : "supplier",
       "selfReferencingColName" : null,
@@ -4306,11 +4667,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "supplier_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "supplier",
+          "columnName" : "supplier_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "supplier_id" : {
+          "id" : "supplier_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "supplier",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "supplier_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "state" : {
-      "id" : "fadsan_school.state",
+      "id" : "state",
       "tableCat" : "fadsan_school",
       "tableName" : "state",
       "selfReferencingColName" : null,
@@ -4519,7 +4910,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "state_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "state",
+          "columnName" : "state_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "state_id" : {
           "id" : "state_id",
           "pktableCat" : "fadsan_school",
@@ -4538,10 +4941,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "state_id" : {
+          "id" : "state_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "state",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "state_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 5,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "school_registration" : {
-      "id" : "fadsan_school.school_registration",
+      "id" : "school_registration",
       "tableCat" : "fadsan_school",
       "tableName" : "school_registration",
       "selfReferencingColName" : null,
@@ -4722,11 +5143,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "school_registration_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "school_registration",
+          "columnName" : "school_registration_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "school_registration_id" : {
+          "id" : "school_registration_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "school_registration",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "school_registration_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "library_settings" : {
-      "id" : "fadsan_school.library_settings",
+      "id" : "library_settings",
       "tableCat" : "fadsan_school",
       "tableName" : "library_settings",
       "selfReferencingColName" : null,
@@ -4935,7 +5386,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "library_setting_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "library_settings",
+          "columnName" : "library_setting_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "session_id" : {
           "id" : "session_id",
           "pktableCat" : "fadsan_school",
@@ -4954,10 +5418,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "library_setting_id" : {
+          "id" : "library_setting_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "library_settings",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "library_setting_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "book_supplier" : {
-      "id" : "fadsan_school.book_supplier",
+      "id" : "book_supplier",
       "tableCat" : "fadsan_school",
       "tableName" : "book_supplier",
       "selfReferencingColName" : null,
@@ -5418,7 +5899,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "stock_purchase_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "book_supplier",
+          "columnName" : "stock_purchase_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "stock_purchase_id" : {
           "id" : "stock_purchase_id",
           "pktableCat" : "fadsan_school",
@@ -5437,10 +5930,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "stock_purchase_id" : {
+          "id" : "stock_purchase_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "book_supplier",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "stock_purchase_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "catagory" : {
-      "id" : "fadsan_school.catagory",
+      "id" : "catagory",
       "tableCat" : "fadsan_school",
       "tableName" : "catagory",
       "selfReferencingColName" : null,
@@ -5621,11 +6132,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "catagory_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "catagory",
+          "columnName" : "catagory_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "catagory_id" : {
+          "id" : "catagory_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "catagory",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "catagory_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_transfer" : {
-      "id" : "fadsan_school.student_transfer",
+      "id" : "student_transfer",
       "tableCat" : "fadsan_school",
       "tableName" : "student_transfer",
       "selfReferencingColName" : null,
@@ -6086,7 +6627,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "transfer_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_transfer",
+          "columnName" : "transfer_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_admission_number" : {
           "id" : "student_admission_number",
           "pktableCat" : "fadsan_school",
@@ -6105,10 +6659,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "transfer_id" : {
+          "id" : "transfer_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_transfer",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "transfer_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 2,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "allot_dress" : {
-      "id" : "fadsan_school.allot_dress",
+      "id" : "allot_dress",
       "tableCat" : "fadsan_school",
       "tableName" : "allot_dress",
       "selfReferencingColName" : null,
@@ -6541,7 +7112,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "allotdress_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "allot_dress",
+          "columnName" : "allotdress_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "subject_id" : {
           "id" : "subject_id",
           "pktableCat" : "fadsan_school",
@@ -6662,10 +7246,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "allotdress_id" : {
+          "id" : "allotdress_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "allot_dress",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "allotdress_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "month" : {
-      "id" : "fadsan_school.month",
+      "id" : "month",
       "tableCat" : "fadsan_school",
       "tableName" : "month",
       "selfReferencingColName" : null,
@@ -6790,7 +7391,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "month_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "month",
+          "columnName" : "month_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "month_id" : {
           "id" : "month_id",
           "pktableCat" : "fadsan_school",
@@ -6809,10 +7422,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "month_id" : {
+          "id" : "month_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "month",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "month_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 13,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "check_bounce" : {
-      "id" : "fadsan_school.check_bounce",
+      "id" : "check_bounce",
       "tableCat" : "fadsan_school",
       "tableName" : "check_bounce",
       "selfReferencingColName" : null,
@@ -6965,7 +7596,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "check_bounceId" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "check_bounce",
+          "columnName" : "check_bounceId",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_fee_submission_details_id" : {
           "id" : "student_fee_submission_details_id",
           "pktableCat" : "fadsan_school",
@@ -6984,10 +7628,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "check_bounceId" : {
+          "id" : "check_bounceId",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "check_bounce",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "check_bounceId",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "payment_due_date" : {
-      "id" : "fadsan_school.payment_due_date",
+      "id" : "payment_due_date",
       "tableCat" : "fadsan_school",
       "tableName" : "payment_due_date",
       "selfReferencingColName" : null,
@@ -7084,7 +7745,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "lastdate_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "payment_due_date",
+          "columnName" : "lastdate_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "month_id" : {
           "id" : "month_id",
           "pktableCat" : "fadsan_school",
@@ -7103,10 +7777,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "lastdate_id" : {
+          "id" : "lastdate_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "payment_due_date",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "lastdate_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "enquiry" : {
-      "id" : "fadsan_school.enquiry",
+      "id" : "enquiry",
       "tableCat" : "fadsan_school",
       "tableName" : "enquiry",
       "selfReferencingColName" : null,
@@ -7791,11 +8482,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "enquiry_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "enquiry",
+          "columnName" : "enquiry_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "enquiry_id" : {
+          "id" : "enquiry_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "enquiry",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "enquiry_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "employees" : {
-      "id" : "fadsan_school.employees",
+      "id" : "employees",
       "tableCat" : "fadsan_school",
       "tableName" : "employees",
       "selfReferencingColName" : null,
@@ -8620,7 +9341,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "employee_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employees",
+          "columnName" : "employee_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "employee_id" : {
           "id" : "employee_id",
           "pktableCat" : "fadsan_school",
@@ -8637,7 +9370,9 @@
           "fkName" : "FK9B211FFBFABA0282",
           "pkName" : null,
           "deferrability" : "7"
-        },
+        }
+      },
+      "importedKeys" : {
         "ID" : {
           "id" : "ID",
           "pktableCat" : "fadsan_school",
@@ -8707,10 +9442,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "employee_id" : {
+          "id" : "employee_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employees",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "employee_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 3,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "uniform_purchase" : {
-      "id" : "fadsan_school.uniform_purchase",
+      "id" : "uniform_purchase",
       "tableCat" : "fadsan_school",
       "tableName" : "uniform_purchase",
       "selfReferencingColName" : null,
@@ -9115,7 +9867,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "product_purchase_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "uniform_purchase",
+          "columnName" : "product_purchase_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "product_purchase_id" : {
           "id" : "product_purchase_id",
           "pktableCat" : "fadsan_school",
@@ -9132,7 +9896,9 @@
           "fkName" : "FKBEC3BFEC5F0F28F",
           "pkName" : null,
           "deferrability" : "7"
-        },
+        }
+      },
+      "importedKeys" : {
         "stock_purchase_id" : {
           "id" : "stock_purchase_id",
           "pktableCat" : "fadsan_school",
@@ -9151,10 +9917,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "product_purchase_id" : {
+          "id" : "product_purchase_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "uniform_purchase",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "product_purchase_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "expenses" : {
-      "id" : "fadsan_school.expenses",
+      "id" : "expenses",
       "tableCat" : "fadsan_school",
       "tableName" : "expenses",
       "selfReferencingColName" : null,
@@ -9363,11 +10146,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "expenses_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "expenses",
+          "columnName" : "expenses_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "expenses_id" : {
+          "id" : "expenses_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "expenses",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "expenses_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "parents" : {
-      "id" : "fadsan_school.parents",
+      "id" : "parents",
       "tableCat" : "fadsan_school",
       "tableName" : "parents",
       "selfReferencingColName" : null,
@@ -9548,7 +10361,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "parents_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "parents",
+          "columnName" : "parents_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_admission_number" : {
           "id" : "student_admission_number",
           "pktableCat" : "fadsan_school",
@@ -9584,10 +10410,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "parents_id" : {
+          "id" : "parents_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "parents",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "parents_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "role" : {
-      "id" : "fadsan_school.role",
+      "id" : "role",
       "tableCat" : "fadsan_school",
       "tableName" : "role",
       "selfReferencingColName" : null,
@@ -9684,11 +10527,57 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "ID" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "role",
+          "columnName" : "ID",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "ID" : {
+          "id" : "ID",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "role",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "ID",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        },
+        "NAME" : {
+          "id" : "NAME",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "role",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "NAME_2",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "NAME",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "city" : {
-      "id" : "fadsan_school.city",
+      "id" : "city",
       "tableCat" : "fadsan_school",
       "tableName" : "city",
       "selfReferencingColName" : null,
@@ -9925,7 +10814,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "city_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "city",
+          "columnName" : "city_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "city_id" : {
           "id" : "city_id",
           "pktableCat" : "fadsan_school",
@@ -9944,10 +10845,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "city_id" : {
+          "id" : "city_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "city",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "city_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 7,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "session" : {
-      "id" : "fadsan_school.session",
+      "id" : "session",
       "tableCat" : "fadsan_school",
       "tableName" : "session",
       "selfReferencingColName" : null,
@@ -10072,7 +10991,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "session_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "session",
+          "columnName" : "session_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "session_id" : {
           "id" : "session_id",
           "pktableCat" : "fadsan_school",
@@ -10091,10 +11022,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "session_id" : {
+          "id" : "session_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "session",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "session_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 3,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "book_sell" : {
-      "id" : "fadsan_school.book_sell",
+      "id" : "book_sell",
       "tableCat" : "fadsan_school",
       "tableName" : "book_sell",
       "selfReferencingColName" : null,
@@ -10555,7 +11504,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "book_payment_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "book_sell",
+          "columnName" : "book_payment_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "book_purchase_id" : {
           "id" : "book_purchase_id",
           "pktableCat" : "fadsan_school",
@@ -10608,10 +11570,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "book_payment_id" : {
+          "id" : "book_payment_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "book_sell",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "book_payment_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "isbn" : {
-      "id" : "fadsan_school.isbn",
+      "id" : "isbn",
       "tableCat" : "fadsan_school",
       "tableName" : "isbn",
       "selfReferencingColName" : null,
@@ -10764,7 +11743,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "isbn_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "isbn",
+          "columnName" : "isbn_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "isbn_id" : {
           "id" : "isbn_id",
           "pktableCat" : "fadsan_school",
@@ -10781,7 +11772,9 @@
           "fkName" : "FK55FFEA8F4856187B",
           "pkName" : null,
           "deferrability" : "7"
-        },
+        }
+      },
+      "importedKeys" : {
         "library_book_id" : {
           "id" : "library_book_id",
           "pktableCat" : "fadsan_school",
@@ -10817,10 +11810,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "isbn_id" : {
+          "id" : "isbn_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "isbn",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "isbn_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "students" : {
-      "id" : "fadsan_school.students",
+      "id" : "students",
       "tableCat" : "fadsan_school",
       "tableName" : "students",
       "selfReferencingColName" : null,
@@ -12121,7 +13131,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "student_admission_number" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "students",
+          "columnName" : "student_admission_number",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "student_admission_number" : {
           "id" : "student_admission_number",
           "pktableCat" : "fadsan_school",
@@ -12140,10 +13162,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "student_admission_number" : {
+          "id" : "student_admission_number",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "students",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_admission_number",
+          "ascOrDesc" : "A",
+          "cardinality" : 1484,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "charactercertificate" : {
-      "id" : "fadsan_school.charactercertificate",
+      "id" : "charactercertificate",
       "tableCat" : "fadsan_school",
       "tableName" : "charactercertificate",
       "selfReferencingColName" : null,
@@ -12408,7 +13448,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "character_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "charactercertificate",
+          "columnName" : "character_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_admission_number" : {
           "id" : "student_admission_number",
           "pktableCat" : "fadsan_school",
@@ -12427,10 +13480,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "character_id" : {
+          "id" : "character_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "charactercertificate",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "character_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 3,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "employee_salary" : {
-      "id" : "fadsan_school.employee_salary",
+      "id" : "employee_salary",
       "tableCat" : "fadsan_school",
       "tableName" : "employee_salary",
       "selfReferencingColName" : null,
@@ -12975,7 +14045,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "employee_salary_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_salary",
+          "columnName" : "employee_salary_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "month_id" : {
           "id" : "month_id",
           "pktableCat" : "fadsan_school",
@@ -13028,10 +14111,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "employee_salary_id" : {
+          "id" : "employee_salary_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_salary",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "employee_salary_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "assign_class" : {
-      "id" : "fadsan_school.assign_class",
+      "id" : "assign_class",
       "tableCat" : "fadsan_school",
       "tableName" : "assign_class",
       "selfReferencingColName" : null,
@@ -13184,7 +14284,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "assign_class_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "assign_class",
+          "columnName" : "assign_class_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "section_id" : {
           "id" : "section_id",
           "pktableCat" : "fadsan_school",
@@ -13237,10 +14350,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "assign_class_id" : {
+          "id" : "assign_class_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "assign_class",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "assign_class_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "section_wise_fee" : {
-      "id" : "fadsan_school.section_wise_fee",
+      "id" : "section_wise_fee",
       "tableCat" : "fadsan_school",
       "tableName" : "section_wise_fee",
       "selfReferencingColName" : null,
@@ -13477,7 +14607,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "section_wise_fee_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "section_wise_fee",
+          "columnName" : "section_wise_fee_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "fee_category_id" : {
           "id" : "fee_category_id",
           "pktableCat" : "fadsan_school",
@@ -13564,10 +14707,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "section_wise_fee_id" : {
+          "id" : "section_wise_fee_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "section_wise_fee",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "section_wise_fee_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "holiday" : {
-      "id" : "fadsan_school.holiday",
+      "id" : "holiday",
       "tableCat" : "fadsan_school",
       "tableName" : "holiday",
       "selfReferencingColName" : null,
@@ -13692,7 +14852,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "holiday_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "holiday",
+          "columnName" : "holiday_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "session_id" : {
           "id" : "session_id",
           "pktableCat" : "fadsan_school",
@@ -13711,10 +14884,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "holiday_id" : {
+          "id" : "holiday_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "holiday",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "holiday_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "book_purchase" : {
-      "id" : "fadsan_school.book_purchase",
+      "id" : "book_purchase",
       "tableCat" : "fadsan_school",
       "tableName" : "book_purchase",
       "selfReferencingColName" : null,
@@ -14175,7 +15365,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "book_purchase_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "book_purchase",
+          "columnName" : "book_purchase_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "book_purchase_id" : {
           "id" : "book_purchase_id",
           "pktableCat" : "fadsan_school",
@@ -14192,7 +15394,9 @@
           "fkName" : "FK78AFB6E821A9777C",
           "pkName" : null,
           "deferrability" : "7"
-        },
+        }
+      },
+      "importedKeys" : {
         "subject_id" : {
           "id" : "subject_id",
           "pktableCat" : "fadsan_school",
@@ -14279,10 +15483,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "book_purchase_id" : {
+          "id" : "book_purchase_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "book_purchase",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "book_purchase_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "last_date" : {
-      "id" : "fadsan_school.last_date",
+      "id" : "last_date",
       "tableCat" : "fadsan_school",
       "tableName" : "last_date",
       "selfReferencingColName" : null,
@@ -14407,7 +15628,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "lastdate_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "last_date",
+          "columnName" : "lastdate_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "month_id" : {
           "id" : "month_id",
           "pktableCat" : "fadsan_school",
@@ -14443,10 +15677,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "lastdate_id" : {
+          "id" : "lastdate_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "last_date",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "lastdate_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 12,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_attendance" : {
-      "id" : "fadsan_school.student_attendance",
+      "id" : "student_attendance",
       "tableCat" : "fadsan_school",
       "tableName" : "student_attendance",
       "selfReferencingColName" : null,
@@ -14711,11 +15962,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "student_attendance_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_attendance",
+          "columnName" : "student_attendance_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "student_attendance_id" : {
+          "id" : "student_attendance_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_attendance",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_attendance_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 62,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "admission_fee" : {
-      "id" : "fadsan_school.admission_fee",
+      "id" : "admission_fee",
       "tableCat" : "fadsan_school",
       "tableName" : "admission_fee",
       "selfReferencingColName" : null,
@@ -15204,7 +16485,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "admission_fee_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "admission_fee",
+          "columnName" : "admission_fee_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "section_id" : {
           "id" : "section_id",
           "pktableCat" : "fadsan_school",
@@ -15274,10 +16568,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "admission_fee_id" : {
+          "id" : "admission_fee_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "admission_fee",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "admission_fee_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "new_studenttransfer" : {
-      "id" : "fadsan_school.new_studenttransfer",
+      "id" : "new_studenttransfer",
       "tableCat" : "fadsan_school",
       "tableName" : "new_studenttransfer",
       "selfReferencingColName" : null,
@@ -17054,7 +18365,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "transferId" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "new_studenttransfer",
+          "columnName" : "transferId",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_admission_number" : {
           "id" : "student_admission_number",
           "pktableCat" : "fadsan_school",
@@ -17073,10 +18397,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "transferId" : {
+          "id" : "transferId",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "new_studenttransfer",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "transferId",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "user_role" : {
-      "id" : "fadsan_school.user_role",
+      "id" : "user_role",
       "tableCat" : "fadsan_school",
       "tableName" : "user_role",
       "selfReferencingColName" : null,
@@ -17145,7 +18486,29 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "ROLE_ID" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "user_role",
+          "columnName" : "ROLE_ID",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        },
+        "USER_ID" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "user_role",
+          "columnName" : "USER_ID",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "ID" : {
           "id" : "ID",
           "pktableCat" : "fadsan_school",
@@ -17164,10 +18527,43 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "USER_ID" : {
+          "id" : "USER_ID",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "user_role",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "USER_ID",
+          "ascOrDesc" : "A",
+          "cardinality" : 21,
+          "pages" : 0,
+          "filterCondition" : null
+        },
+        "ROLE_ID" : {
+          "id" : "ROLE_ID",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "user_role",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "ROLE_ID",
+          "ascOrDesc" : "A",
+          "cardinality" : 21,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "annual_exam_report" : {
-      "id" : "fadsan_school.annual_exam_report",
+      "id" : "annual_exam_report",
       "tableCat" : "fadsan_school",
       "tableName" : "annual_exam_report",
       "selfReferencingColName" : null,
@@ -17404,24 +18800,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
-        "section_id" : {
-          "id" : "section_id",
-          "pktableCat" : "fadsan_school",
-          "pktableSchem" : null,
-          "pktableName" : "section",
-          "pkcolumnName" : "section_id",
-          "fktableCat" : "fadsan_school",
-          "fktableSchem" : null,
-          "fktableName" : "annual_exam_report",
-          "fkcolumnName" : "section_id",
-          "keySeq" : "1",
-          "updateRule" : "3",
-          "deleteRule" : "3",
-          "fkName" : "FK44A782F4AA42F28B",
-          "pkName" : null,
-          "deferrability" : "7"
-        },
+      "primaryKeys" : {
+        "annual_exam_report_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annual_exam_report",
+          "columnName" : "annual_exam_report_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "annual_exam_report_id" : {
           "id" : "annual_exam_report_id",
           "pktableCat" : "fadsan_school",
@@ -17436,6 +18827,25 @@
           "updateRule" : "3",
           "deleteRule" : "3",
           "fkName" : "FKD19BF44612E1BE7",
+          "pkName" : null,
+          "deferrability" : "7"
+        }
+      },
+      "importedKeys" : {
+        "section_id" : {
+          "id" : "section_id",
+          "pktableCat" : "fadsan_school",
+          "pktableSchem" : null,
+          "pktableName" : "section",
+          "pkcolumnName" : "section_id",
+          "fktableCat" : "fadsan_school",
+          "fktableSchem" : null,
+          "fktableName" : "annual_exam_report",
+          "fkcolumnName" : "section_id",
+          "keySeq" : "1",
+          "updateRule" : "3",
+          "deleteRule" : "3",
+          "fkName" : "FK44A782F4AA42F28B",
           "pkName" : null,
           "deferrability" : "7"
         },
@@ -17491,10 +18901,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "annual_exam_report_id" : {
+          "id" : "annual_exam_report_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annual_exam_report",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "annual_exam_report_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 78,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "library" : {
-      "id" : "fadsan_school.library",
+      "id" : "library",
       "tableCat" : "fadsan_school",
       "tableName" : "library",
       "selfReferencingColName" : null,
@@ -17703,7 +19130,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "library_book_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "library",
+          "columnName" : "library_book_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "library_book_id" : {
           "id" : "library_book_id",
           "pktableCat" : "fadsan_school",
@@ -17720,7 +19159,9 @@
           "fkName" : "FK3176F644C60E59",
           "pkName" : null,
           "deferrability" : "7"
-        },
+        }
+      },
+      "importedKeys" : {
         "class_id" : {
           "id" : "class_id",
           "pktableCat" : "fadsan_school",
@@ -17739,10 +19180,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "library_book_id" : {
+          "id" : "library_book_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "library",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "library_book_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "bounce_amount" : {
-      "id" : "fadsan_school.bounce_amount",
+      "id" : "bounce_amount",
       "tableCat" : "fadsan_school",
       "tableName" : "bounce_amount",
       "selfReferencingColName" : null,
@@ -17811,11 +19269,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "bounce_amount_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "bounce_amount",
+          "columnName" : "bounce_amount_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "bounce_amount_id" : {
+          "id" : "bounce_amount_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "bounce_amount",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "bounce_amount_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "login_role" : {
-      "id" : "fadsan_school.login_role",
+      "id" : "login_role",
       "tableCat" : "fadsan_school",
       "tableName" : "login_role",
       "selfReferencingColName" : null,
@@ -17912,7 +19400,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "ID" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "login_role",
+          "columnName" : "ID",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "ID" : {
           "id" : "ID",
           "pktableCat" : "fadsan_school",
@@ -17931,10 +19431,44 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "ID" : {
+          "id" : "ID",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "login_role",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "ID",
+          "ascOrDesc" : "A",
+          "cardinality" : 5,
+          "pages" : 0,
+          "filterCondition" : null
+        },
+        "NAME" : {
+          "id" : "NAME",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "login_role",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "NAME",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "NAME",
+          "ascOrDesc" : "A",
+          "cardinality" : 5,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_admission" : {
-      "id" : "fadsan_school.student_admission",
+      "id" : "student_admission",
       "tableCat" : "fadsan_school",
       "tableName" : "student_admission",
       "selfReferencingColName" : null,
@@ -19319,7 +20853,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "student_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_admission",
+          "columnName" : "student_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "section_id" : {
           "id" : "section_id",
           "pktableCat" : "fadsan_school",
@@ -19372,10 +20919,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "student_id" : {
+          "id" : "student_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_admission",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 5,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "new_employee_attendance" : {
-      "id" : "fadsan_school.new_employee_attendance",
+      "id" : "new_employee_attendance",
       "tableCat" : "fadsan_school",
       "tableName" : "new_employee_attendance",
       "selfReferencingColName" : null,
@@ -19528,7 +21092,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "student_attendance_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "new_employee_attendance",
+          "columnName" : "student_attendance_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "employee_id" : {
           "id" : "employee_id",
           "pktableCat" : "fadsan_school",
@@ -19547,10 +21124,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "student_attendance_id" : {
+          "id" : "student_attendance_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "new_employee_attendance",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_attendance_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "class_wise_fee" : {
-      "id" : "fadsan_school.class_wise_fee",
+      "id" : "class_wise_fee",
       "tableCat" : "fadsan_school",
       "tableName" : "class_wise_fee",
       "selfReferencingColName" : null,
@@ -19759,7 +21353,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "class_wise_fee_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "class_wise_fee",
+          "columnName" : "class_wise_fee_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "fee_category_id" : {
           "id" : "fee_category_id",
           "pktableCat" : "fadsan_school",
@@ -19829,10 +21436,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "class_wise_fee_id" : {
+          "id" : "class_wise_fee_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "class_wise_fee",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "class_wise_fee_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 5,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "annual_exam_gain_marks" : {
-      "id" : "fadsan_school.annual_exam_gain_marks",
+      "id" : "annual_exam_gain_marks",
       "tableCat" : "fadsan_school",
       "tableName" : "annual_exam_gain_marks",
       "selfReferencingColName" : null,
@@ -19957,7 +21581,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "annual_exam_gain_marks_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annual_exam_gain_marks",
+          "columnName" : "annual_exam_gain_marks_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "subject_id" : {
           "id" : "subject_id",
           "pktableCat" : "fadsan_school",
@@ -19993,10 +21630,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "annual_exam_gain_marks_id" : {
+          "id" : "annual_exam_gain_marks_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annual_exam_gain_marks",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "annual_exam_gain_marks_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 156,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "annually_subject_marks" : {
-      "id" : "fadsan_school.annually_subject_marks",
+      "id" : "annually_subject_marks",
       "tableCat" : "fadsan_school",
       "tableName" : "annually_subject_marks",
       "selfReferencingColName" : null,
@@ -20233,7 +21887,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "annually_subject_marks_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annually_subject_marks",
+          "columnName" : "annually_subject_marks_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "subject_id" : {
           "id" : "subject_id",
           "pktableCat" : "fadsan_school",
@@ -20303,10 +21970,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "annually_subject_marks_id" : {
+          "id" : "annually_subject_marks_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annually_subject_marks",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "annually_subject_marks_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "class" : {
-      "id" : "fadsan_school.class",
+      "id" : "class",
       "tableCat" : "fadsan_school",
       "tableName" : "class",
       "selfReferencingColName" : null,
@@ -20403,7 +22087,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "class_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "class",
+          "columnName" : "class_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "class_id" : {
           "id" : "class_id",
           "pktableCat" : "fadsan_school",
@@ -20422,10 +22118,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "class_id" : {
+          "id" : "class_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "class",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "class_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 21,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "notice" : {
-      "id" : "fadsan_school.notice",
+      "id" : "notice",
       "tableCat" : "fadsan_school",
       "tableName" : "notice",
       "selfReferencingColName" : null,
@@ -20606,11 +22320,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "notice_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "notice",
+          "columnName" : "notice_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "notice_id" : {
+          "id" : "notice_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "notice",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "notice_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "visitor_details" : {
-      "id" : "fadsan_school.visitor_details",
+      "id" : "visitor_details",
       "tableCat" : "fadsan_school",
       "tableName" : "visitor_details",
       "selfReferencingColName" : null,
@@ -20903,11 +22647,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "visitor_details",
+          "columnName" : "id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "id" : {
+          "id" : "id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "visitor_details",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "employee_document" : {
-      "id" : "fadsan_school.employee_document",
+      "id" : "employee_document",
       "tableCat" : "fadsan_school",
       "tableName" : "employee_document",
       "selfReferencingColName" : null,
@@ -21088,7 +22862,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "employee_document_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_document",
+          "columnName" : "employee_document_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "employee_id" : {
           "id" : "employee_id",
           "pktableCat" : "fadsan_school",
@@ -21124,10 +22911,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "employee_document_id" : {
+          "id" : "employee_document_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_document",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "employee_document_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_fee_submission_details" : {
-      "id" : "fadsan_school.student_fee_submission_details",
+      "id" : "student_fee_submission_details",
       "tableCat" : "fadsan_school",
       "tableName" : "student_fee_submission_details",
       "selfReferencingColName" : null,
@@ -21672,7 +23476,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "student_fee_submission_details_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_fee_submission_details",
+          "columnName" : "student_fee_submission_details_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "student_fee_submission_details_id" : {
           "id" : "student_fee_submission_details_id",
           "pktableCat" : "fadsan_school",
@@ -21691,10 +23507,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "student_fee_submission_details_id" : {
+          "id" : "student_fee_submission_details_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_fee_submission_details",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_fee_submission_details_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_fine" : {
-      "id" : "fadsan_school.student_fine",
+      "id" : "student_fine",
       "tableCat" : "fadsan_school",
       "tableName" : "student_fine",
       "selfReferencingColName" : null,
@@ -22071,7 +23905,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "student_fine_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_fine",
+          "columnName" : "student_fine_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_fee_submission_details_id" : {
           "id" : "student_fee_submission_details_id",
           "pktableCat" : "fadsan_school",
@@ -22141,10 +23988,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "student_fine_id" : {
+          "id" : "student_fine_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_fine",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_fine_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "subjects" : {
-      "id" : "fadsan_school.subjects",
+      "id" : "subjects",
       "tableCat" : "fadsan_school",
       "tableName" : "subjects",
       "selfReferencingColName" : null,
@@ -22325,7 +24189,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "subject_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "subjects",
+          "columnName" : "subject_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "subject_id" : {
           "id" : "subject_id",
           "pktableCat" : "fadsan_school",
@@ -22342,7 +24218,9 @@
           "fkName" : "FK20A34C22A5C20504",
           "pkName" : null,
           "deferrability" : "7"
-        },
+        }
+      },
+      "importedKeys" : {
         "section_id" : {
           "id" : "section_id",
           "pktableCat" : "fadsan_school",
@@ -22395,10 +24273,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "subject_id" : {
+          "id" : "subject_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "subjects",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "subject_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 4,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "annual_exam_total_gain_marks" : {
-      "id" : "fadsan_school.annual_exam_total_gain_marks",
+      "id" : "annual_exam_total_gain_marks",
       "tableCat" : "fadsan_school",
       "tableName" : "annual_exam_total_gain_marks",
       "selfReferencingColName" : null,
@@ -22635,7 +24530,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "annual_exam_total_gain_marks_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annual_exam_total_gain_marks",
+          "columnName" : "annual_exam_total_gain_marks_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "section_id" : {
           "id" : "section_id",
           "pktableCat" : "fadsan_school",
@@ -22705,10 +24613,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "annual_exam_total_gain_marks_id" : {
+          "id" : "annual_exam_total_gain_marks_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "annual_exam_total_gain_marks",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "annual_exam_total_gain_marks_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 3,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "transport" : {
-      "id" : "fadsan_school.transport",
+      "id" : "transport",
       "tableCat" : "fadsan_school",
       "tableName" : "transport",
       "selfReferencingColName" : null,
@@ -23029,7 +24954,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "transportId" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "transport",
+          "columnName" : "transportId",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_fee_submission_details_id" : {
           "id" : "student_fee_submission_details_id",
           "pktableCat" : "fadsan_school",
@@ -23065,10 +25003,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "transportId" : {
+          "id" : "transportId",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "transport",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "transportId",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "religion" : {
-      "id" : "fadsan_school.religion",
+      "id" : "religion",
       "tableCat" : "fadsan_school",
       "tableName" : "religion",
       "selfReferencingColName" : null,
@@ -23165,11 +25120,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "religion_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "religion",
+          "columnName" : "religion_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "religion_id" : {
+          "id" : "religion_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "religion",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "religion_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "issue_book" : {
-      "id" : "fadsan_school.issue_book",
+      "id" : "issue_book",
       "tableCat" : "fadsan_school",
       "tableName" : "issue_book",
       "selfReferencingColName" : null,
@@ -23350,7 +25335,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "issue_book_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "issue_book",
+          "columnName" : "issue_book_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "isbn_id" : {
           "id" : "isbn_id",
           "pktableCat" : "fadsan_school",
@@ -23369,10 +25367,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "issue_book_id" : {
+          "id" : "issue_book_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "issue_book",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "issue_book_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_categories" : {
-      "id" : "fadsan_school.student_categories",
+      "id" : "student_categories",
       "tableCat" : "fadsan_school",
       "tableName" : "student_categories",
       "selfReferencingColName" : null,
@@ -23469,11 +25484,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "student_categories_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_categories",
+          "columnName" : "student_categories_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "student_categories_id" : {
+          "id" : "student_categories_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_categories",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_categories_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 5,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "advance_salary" : {
-      "id" : "fadsan_school.advance_salary",
+      "id" : "advance_salary",
       "tableCat" : "fadsan_school",
       "tableName" : "advance_salary",
       "selfReferencingColName" : null,
@@ -23682,7 +25727,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "advance_salary_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "advance_salary",
+          "columnName" : "advance_salary_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "month_id" : {
           "id" : "month_id",
           "pktableCat" : "fadsan_school",
@@ -23735,10 +25793,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "advance_salary_id" : {
+          "id" : "advance_salary_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "advance_salary",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "advance_salary_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "fee_discount" : {
-      "id" : "fadsan_school.fee_discount",
+      "id" : "fee_discount",
       "tableCat" : "fadsan_school",
       "tableName" : "fee_discount",
       "selfReferencingColName" : null,
@@ -24003,7 +26078,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "fee_discount_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fee_discount",
+          "columnName" : "fee_discount_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "section_id" : {
           "id" : "section_id",
           "pktableCat" : "fadsan_school",
@@ -24056,10 +26144,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "fee_discount_id" : {
+          "id" : "fee_discount_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fee_discount",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "fee_discount_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "gate_pass" : {
-      "id" : "fadsan_school.gate_pass",
+      "id" : "gate_pass",
       "tableCat" : "fadsan_school",
       "tableName" : "gate_pass",
       "selfReferencingColName" : null,
@@ -24268,7 +26373,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "gate_pass_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "gate_pass",
+          "columnName" : "gate_pass_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "student_admission_number" : {
           "id" : "student_admission_number",
           "pktableCat" : "fadsan_school",
@@ -24287,10 +26405,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "gate_pass_id" : {
+          "id" : "gate_pass_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "gate_pass",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "gate_pass_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 6,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "uniform_supplier" : {
-      "id" : "fadsan_school.uniform_supplier",
+      "id" : "uniform_supplier",
       "tableCat" : "fadsan_school",
       "tableName" : "uniform_supplier",
       "selfReferencingColName" : null,
@@ -24751,7 +26886,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "stock_purchase_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "uniform_supplier",
+          "columnName" : "stock_purchase_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "stock_purchase_id" : {
           "id" : "stock_purchase_id",
           "pktableCat" : "fadsan_school",
@@ -24770,10 +26917,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "stock_purchase_id" : {
+          "id" : "stock_purchase_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "uniform_supplier",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "stock_purchase_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_wise_fee" : {
-      "id" : "fadsan_school.student_wise_fee",
+      "id" : "student_wise_fee",
       "tableCat" : "fadsan_school",
       "tableName" : "student_wise_fee",
       "selfReferencingColName" : null,
@@ -25038,7 +27203,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "student_wise_fee_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_wise_fee",
+          "columnName" : "student_wise_fee_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "student_wise_fee_id" : {
           "id" : "student_wise_fee_id",
           "pktableCat" : "fadsan_school",
@@ -25057,10 +27234,28 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "student_wise_fee_id" : {
+          "id" : "student_wise_fee_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_wise_fee",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_wise_fee_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 4,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "student_document" : {
-      "id" : "fadsan_school.student_document",
+      "id" : "student_document",
       "tableCat" : "fadsan_school",
       "tableName" : "student_document",
       "selfReferencingColName" : null,
@@ -25241,7 +27436,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "student_document_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_document",
+          "columnName" : "student_document_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "document_category_id" : {
           "id" : "document_category_id",
           "pktableCat" : "fadsan_school",
@@ -25260,10 +27468,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "student_document_id" : {
+          "id" : "student_document_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "student_document",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "student_document_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 0,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "user" : {
-      "id" : "fadsan_school.user",
+      "id" : "user",
       "tableCat" : "fadsan_school",
       "tableName" : "user",
       "selfReferencingColName" : null,
@@ -25444,7 +27669,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "ID" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "user",
+          "columnName" : "ID",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "ID" : {
           "id" : "ID",
           "pktableCat" : "fadsan_school",
@@ -25463,10 +27700,44 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "USERNAME" : {
+          "id" : "USERNAME",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "user",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "USERNAME",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "USERNAME",
+          "ascOrDesc" : "A",
+          "cardinality" : 22,
+          "pages" : 0,
+          "filterCondition" : null
+        },
+        "ID" : {
+          "id" : "ID",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "user",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "ID",
+          "ascOrDesc" : "A",
+          "cardinality" : 22,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "employee_attendance" : {
-      "id" : "fadsan_school.employee_attendance",
+      "id" : "employee_attendance",
       "tableCat" : "fadsan_school",
       "tableName" : "employee_attendance",
       "selfReferencingColName" : null,
@@ -25647,7 +27918,20 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "employee_attendance_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_attendance",
+          "columnName" : "employee_attendance_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : { },
+      "importedKeys" : {
         "employee_id" : {
           "id" : "employee_id",
           "pktableCat" : "fadsan_school",
@@ -25666,10 +27950,27 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "indexedKeys" : {
+        "employee_attendance_id" : {
+          "id" : "employee_attendance_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_attendance",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "employee_attendance_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 6,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "employee_role" : {
-      "id" : "fadsan_school.employee_role",
+      "id" : "employee_role",
       "tableCat" : "fadsan_school",
       "tableName" : "employee_role",
       "selfReferencingColName" : null,
@@ -25766,11 +28067,41 @@
           "isGeneratedcolumn" : "NO"
         }
       },
+      "primaryKeys" : {
+        "employee_role_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_role",
+          "columnName" : "employee_role_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
       "foreignKeys" : { },
-      "referenKeys" : { }
+      "exportedKeys" : { },
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "employee_role_id" : {
+          "id" : "employee_role_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "employee_role",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "employee_role_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 1,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     },
     "fees_categories" : {
-      "id" : "fadsan_school.fees_categories",
+      "id" : "fees_categories",
       "tableCat" : "fadsan_school",
       "tableName" : "fees_categories",
       "selfReferencingColName" : null,
@@ -25867,7 +28198,19 @@
           "isGeneratedcolumn" : "NO"
         }
       },
-      "foreignKeys" : {
+      "primaryKeys" : {
+        "fee_category_id" : {
+          "id" : null,
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fees_categories",
+          "columnName" : "fee_category_id",
+          "keySeq" : 0,
+          "pkName" : "PRIMARY"
+        }
+      },
+      "foreignKeys" : { },
+      "exportedKeys" : {
         "fee_category_id" : {
           "id" : "fee_category_id",
           "pktableCat" : "fadsan_school",
@@ -25886,7 +28229,25 @@
           "deferrability" : "7"
         }
       },
-      "referenKeys" : { }
+      "importedKeys" : { },
+      "indexedKeys" : {
+        "fee_category_id" : {
+          "id" : "fee_category_id",
+          "tableCat" : "fadsan_school",
+          "tableSchem" : null,
+          "tableName" : "fees_categories",
+          "nonUnique" : false,
+          "indexQualifier" : "",
+          "indexName" : "PRIMARY",
+          "type" : 0,
+          "ordinalPosition" : 0,
+          "columnName" : "fee_category_id",
+          "ascOrDesc" : "A",
+          "cardinality" : 9,
+          "pages" : 0,
+          "filterCondition" : null
+        }
+      }
     }
   }
 }

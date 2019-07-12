@@ -2,7 +2,7 @@
 
    {
 	 "id" :"fadsan_school_db_source",
-	 "model":"DATA_SOURCE",
+	 "type":"org.apache.commons.dbcp.BasicDataSource",
 	 "name": "DataSource",
 	 "properties":{
 	    "driverClassName":"com.mysql.cj.jdbc.Driver",

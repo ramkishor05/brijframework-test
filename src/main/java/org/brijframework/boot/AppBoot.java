@@ -1,8 +1,5 @@
 package org.brijframework.boot;
 
-import java.util.List;
-import java.util.Map;
-
 import org.brijframework.context.integration.ApplicationBoot;
 import org.brijframework.jdbc.template.JdbcTemplate;
 import org.brijframework.support.config.ApplicationBootstrap;
@@ -13,14 +10,8 @@ import org.brijframework.support.config.DatasourceBootstrap;
 public class AppBoot {
 
 	public static void main(String[] args) throws Exception {
-		for (String name : args){
-            System.out.println("arg-" + name );
-        }
 		ApplicationBoot factory=ApplicationBoot.bootstraps(args);
-		System.out.println("=================VarArgs==============");
-		System.out.println(factory.getArguments().getNonParams());
-		System.out.println("=================withArgs==============");
-		System.out.println(factory.getArguments().getWithParams());
+		
 		/*
 		Map<String, Object> properties=new HashMap<>();
 		properties.put("annual_exam_gain_marks_id" , 1);
@@ -41,14 +32,12 @@ public class AppBoot {
 		
 		JdbcTemplate template=new JdbcTemplate("fadsan_school");
 		
-		boolean result=template.statement().update("country").set("country_code", "1").where().equalTo("country_id", 4).execute();
-		System.out.println(result);
+		/*boolean result=template.statement().update("country").setProperty("country_code", "1").where().equalTo("country_id", 4).result();
+		System.out.println(result);*/
 		
-		List<Map<String, Object>> query=template.statement().fetch("country").selected("country_code").selected("country_name").where().equalTo("country_code", 1).list();
-		System.out.println(query);
-		
-		
-		
+		template.statement().fetch("country").all().limit(5).forBatch(list->{
+			System.out.println(list);
+		});
 		
 		/*
 		 
