@@ -20,7 +20,7 @@ import org.brijframework.util.support.Access;
   properties = {@Attribute(name = "line", value = "noida"), @Attribute(name = "landMark", value = "Globel") 
 })
 
-@BeanMapper(source = "@Bean[Address_001]")
+@BeanMapper()
 public class Address implements BeanObject {
 	/**
 	 * 

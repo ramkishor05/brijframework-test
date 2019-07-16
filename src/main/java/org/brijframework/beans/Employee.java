@@ -15,6 +15,7 @@ import org.brijframework.support.model.Param;
 import org.brijframework.support.model.Property;
 import org.brijframework.support.model.Relation;
 import org.brijframework.support.model.Strategy;
+import org.brijframework.support.model.mapper.BeanMapper;
 import org.brijframework.support.model.mapper.PropertyMapper;
 import org.brijframework.util.support.Access;
 
@@ -22,6 +23,7 @@ import org.brijframework.util.support.Access;
 @Model(access = Access.PUBLIC, constructor = @Construct(params = {
 		@Param(type = long.class, value = "1", index = 2), @Param(type = String.class, value = "1", index = 0),
 		@Param(type = String.class, value = "Ram", index = 1) }))
+@BeanMapper()
 public class Employee implements BeanObject {
 	/**
 	 * 

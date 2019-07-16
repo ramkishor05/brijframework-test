@@ -1,7 +1,9 @@
 package org.brijframework.boot;
 
-import org.brijframework.context.integration.ApplicationBoot;
-import org.brijframework.jdbc.template.JdbcTemplate;
+import org.brijframework.beans.Address;
+import org.brijframework.beans.Employee;
+import org.brijframework.mapper.asm.GenericMapper;
+import org.brijframework.mapper.model.impl.AnnotationClsMapperModelFactory;
 import org.brijframework.support.config.ApplicationBootstrap;
 import org.brijframework.support.config.DatasourceBootstrap;
 
@@ -10,7 +12,11 @@ import org.brijframework.support.config.DatasourceBootstrap;
 public class AppBoot {
 
 	public static void main(String[] args) throws Exception {
-		ApplicationBoot factory=ApplicationBoot.bootstraps(args);
+		AnnotationClsMapperModelFactory.getFactory().loadFactory();
+		GenericMapper<Employee> mapper=new GenericMapper<Employee>() {};
+		Employee employee=mapper.mapped(new Address());
+		System.out.println(employee);
+		/*ApplicationBoot factory=ApplicationBoot.bootstraps(args);*/
 		
 		/*
 		Map<String, Object> properties=new HashMap<>();
@@ -30,14 +36,14 @@ public class AppBoot {
 		
 		System.out.println(jdbcContext.getProperties());*/
 		
-		JdbcTemplate template=new JdbcTemplate("fadsan_school");
+		//JdbcTemplate template=new JdbcTemplate("fadsan_school");
 		
 		/*boolean result=template.statement().update("country").setProperty("country_code", "1").where().equalTo("country_id", 4).result();
 		System.out.println(result);*/
 		
-		template.statement().fetch("country").all().limit(5).forBatch(list->{
+		/*template.statement().fetch("country").all().limit(5).forBatch(list->{
 			System.out.println(list);
-		});
+		});*/
 		
 		/*
 		 
