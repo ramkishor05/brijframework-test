@@ -5,48 +5,48 @@ import org.brijframework.support.beans.Attribute;
 import org.brijframework.support.beans.Bean;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Logic;
-import org.brijframework.support.model.Mapping;
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Param;
 import org.brijframework.support.model.Property;
 import org.brijframework.support.model.Relation;
+import org.brijframework.support.model.mapper.BeanMapper;
+import org.brijframework.support.model.mapper.PropertyMapper;
 import org.brijframework.util.support.Access;
 
-@Model(access = Access.DEFAULT)
-@Model(id = "Address_001", access = Access.PRIVATE, constructor= @Construct(params =  {
-	@Param(type = String.class, index = 0), 
-	@Param(type = String.class, index = 1) 
-}))
-@Bean(id = "Address_001", model = "Address_001", properties = { 
-	@Attribute(name = "line", value = "noida"),
-	@Attribute(name = "landMark", value = "Globel")
+@Model(id = "Address_001", access = Access.PRIVATE, 
+  constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }))
+@Bean(id = "Address_001", model = "Address_001", 
+  constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }), 
+  properties = {@Attribute(name = "line", value = "noida"), @Attribute(name = "landMark", value = "Globel") 
 })
+
+@BeanMapper(source = "@Bean[Address_001]")
 public class Address implements BeanObject {
 	/**
 	 * 
 	 */
-	
+
 	private static final long serialVersionUID = 1L;
 
 	public Address() {
 	}
-	
-	public Address(String line,String landMark) {
-		this.line=line;
-		this.landMark=landMark;
+
+	public Address(String line, String landMark) {
+		this.line = line;
+		this.landMark = landMark;
 	}
-	
+
 	@Property(access = Access.PUBLIC, value = "Sector 71")
 	public String line;
 
-	@Relation(mappedBy="City")
+	@Relation(mappedBy = "City")
 	private City city;
 
-	@Mapping(source = "LANDMARK")
+	@PropertyMapper(source = "LANDMARK", destination="landMark")
 	@Property(access = Access.PUBLIC, value = "Noida")
 	private String landMark;
-	
-	//public Employee employee;
+
+	// public Employee employee;
 
 	@Logic
 	public void logicInfo() {

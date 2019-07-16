@@ -10,17 +10,15 @@ import org.brijframework.support.enums.Wiring;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Identity;
 import org.brijframework.support.model.Logic;
-import org.brijframework.support.model.Mapping;
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Param;
 import org.brijframework.support.model.Property;
 import org.brijframework.support.model.Relation;
 import org.brijframework.support.model.Strategy;
+import org.brijframework.support.model.mapper.PropertyMapper;
 import org.brijframework.util.support.Access;
 
-@Model(id = "Employee_REQUEST", access = Access.PRIVATE)
-@Model(id = "Employee_PROTOTYPE", access = Access.PRIVATE)
-@Model(id = "Employee_SINGLETON", access = Access.PRIVATE)
+@Model(id = "Employee_001", access = Access.PRIVATE)
 @Model(access = Access.PUBLIC, constructor = @Construct(params = {
 		@Param(type = long.class, value = "1", index = 2), @Param(type = String.class, value = "1", index = 0),
 		@Param(type = String.class, value = "Ram", index = 1) }))
@@ -43,7 +41,7 @@ public class Employee implements BeanObject {
 	@Relation(mappedBy = "Address_001", wired = Wiring.AUTO, access = Access.PUBLIC, required = true)
 	private Address address;
 
-	@Mapping(source = "AddressList")
+	@PropertyMapper(source = "AddressList")
 	private List<Address> addresses;
 
 	@Property(access = Access.PUBLIC, required = true, type = LinkedHashMap.class)

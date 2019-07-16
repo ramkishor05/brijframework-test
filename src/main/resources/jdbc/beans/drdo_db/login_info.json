@@ -1,0 +1,15 @@
+[ {
+  "CREATED_BY" : "ROLE_ADMIN",
+  "PROFILE_ID" : 1,
+  "LOCKED" : "N",
+  "ACTIVE" : "Y",
+  "LOGIN_ID" : 1,
+  "UPD_TS" : 1561742167000,
+  "LAST_LOGIN" : 1561742167000,
+  "USER_NAME" : "admin@admin.com",
+  "PASSWORD" : "$2a$10$Y448/iteU5Ozu3/x3SXuU.iSwSckjnjHN.wAm0GBl9ZkbhHvPbDLK",
+  "CREATED_TS" : 1561742167000,
+  "ROLE_ID" : 1,
+  "ENABLED" : "Y",
+  "UPD_BY" : "admin@admin.com"
+} ]

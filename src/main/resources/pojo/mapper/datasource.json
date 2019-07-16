@@ -1,0 +1,12 @@
+[
+   {
+	 "id" :"employee_mapper",
+	 "type":"org.brijframework.beans.Employee",
+	 "properties":{
+	    "id":"ID",
+	    "name":"NAME",
+	    "rollNo":"RollNo",
+	    "password":"root"
+	 }
+   }
+]
