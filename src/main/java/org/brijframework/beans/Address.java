@@ -3,14 +3,14 @@ package org.brijframework.beans;
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.beans.Attribute;
 import org.brijframework.support.beans.Bean;
+import org.brijframework.support.mapper.Mapper;
+import org.brijframework.support.mapper.PropertyMapper;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Logic;
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Param;
 import org.brijframework.support.model.Property;
 import org.brijframework.support.model.Relation;
-import org.brijframework.support.model.mapper.BeanMapper;
-import org.brijframework.support.model.mapper.PropertyMapper;
 import org.brijframework.util.support.Access;
 
 @Model(id = "Address_001", access = Access.PRIVATE, 
@@ -20,7 +20,7 @@ import org.brijframework.util.support.Access;
   properties = {@Attribute(name = "line", value = "noida"), @Attribute(name = "landMark", value = "Globel") 
 })
 
-@BeanMapper()
+@Mapper()
 public class Address implements BeanObject {
 	/**
 	 * 
@@ -42,7 +42,7 @@ public class Address implements BeanObject {
 	@Relation(mappedBy = "City")
 	private City city;
 
-	@PropertyMapper(source = "LANDMARK", destination="landMark")
+	@PropertyMapper(source = "LANDMARK", target="landMark")
 	@Property(access = Access.PUBLIC, value = "Noida")
 	private String landMark;
 

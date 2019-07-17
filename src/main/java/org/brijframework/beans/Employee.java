@@ -7,6 +7,8 @@ import java.util.Map;
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.enums.Formula;
 import org.brijframework.support.enums.Wiring;
+import org.brijframework.support.mapper.Mapper;
+import org.brijframework.support.mapper.PropertyMapper;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Identity;
 import org.brijframework.support.model.Logic;
@@ -15,15 +17,13 @@ import org.brijframework.support.model.Param;
 import org.brijframework.support.model.Property;
 import org.brijframework.support.model.Relation;
 import org.brijframework.support.model.Strategy;
-import org.brijframework.support.model.mapper.BeanMapper;
-import org.brijframework.support.model.mapper.PropertyMapper;
 import org.brijframework.util.support.Access;
 
 @Model(id = "Employee_001", access = Access.PRIVATE)
 @Model(access = Access.PUBLIC, constructor = @Construct(params = {
 		@Param(type = long.class, value = "1", index = 2), @Param(type = String.class, value = "1", index = 0),
 		@Param(type = String.class, value = "Ram", index = 1) }))
-@BeanMapper()
+@Mapper()
 public class Employee implements BeanObject {
 	/**
 	 * 
