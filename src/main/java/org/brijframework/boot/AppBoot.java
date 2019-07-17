@@ -1,21 +1,37 @@
 package org.brijframework.boot;
 
-import org.brijframework.beans.Address;
 import org.brijframework.beans.Employee;
+import org.brijframework.beans.EmployeeBean;
 import org.brijframework.mapper.asm.GenericMapper;
-import org.brijframework.mapper.model.impl.AnnotationClsMapperModelFactory;
+import org.brijframework.mapper.container.MapperContainer;
 import org.brijframework.support.config.ApplicationBootstrap;
 import org.brijframework.support.config.DatasourceBootstrap;
+import org.brijframework.util.formatter.PrintUtil;
 
 @ApplicationBootstrap(paths="application-bootstrap.properties|modelbeans-bootstrap.yml|datasource-bootstrap.yml")
 @DatasourceBootstrap
 public class AppBoot {
 
 	public static void main(String[] args) throws Exception {
-		AnnotationClsMapperModelFactory.getFactory().loadFactory();
+		MapperContainer container=MapperContainer.getContainer();
+		container.init();
+		container.loadContainer();
+		
 		GenericMapper<Employee> mapper=new GenericMapper<Employee>() {};
-		Employee employee=mapper.mapped(new Address());
-		System.out.println(employee);
+		EmployeeBean frombean=new EmployeeBean();
+		frombean.setID("201");
+		frombean.setNAME("Ram");
+		frombean.setROLLNUM(1011);
+		Employee toBean=new Employee();
+		
+		mapper.mappedTo(toBean,frombean);
+		
+		System.out.println(PrintUtil.getObjectInfo(toBean));
+		
+		EmployeeBean frombean1=new EmployeeBean();
+		mapper.mappedFrom(toBean,frombean1);
+		
+		System.out.println(PrintUtil.getObjectInfo(frombean1));
 		/*ApplicationBoot factory=ApplicationBoot.bootstraps(args);*/
 		
 		/*

@@ -8,7 +8,6 @@ import org.brijframework.bean.BeanObject;
 import org.brijframework.support.enums.Formula;
 import org.brijframework.support.enums.Wiring;
 import org.brijframework.support.mapper.Mapper;
-import org.brijframework.support.mapper.PropertyMapper;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Identity;
 import org.brijframework.support.model.Logic;
@@ -23,7 +22,7 @@ import org.brijframework.util.support.Access;
 @Model(access = Access.PUBLIC, constructor = @Construct(params = {
 		@Param(type = long.class, value = "1", index = 2), @Param(type = String.class, value = "1", index = 0),
 		@Param(type = String.class, value = "Ram", index = 1) }))
-@Mapper()
+@Mapper(source = "")
 public class Employee implements BeanObject {
 	/**
 	 * 
@@ -32,18 +31,21 @@ public class Employee implements BeanObject {
 
 	@Property("1")
 	@Identity(strategy = @Strategy(formula = Formula.Sequence, init = 10))
+	@Mapper(source="ID")
 	private String id;
 
 	@Property(access = Access.PUBLIC, required = true)
+	@Mapper(source="NAME")
 	private String name;
 
 	@Property(access = Access.PUBLIC, required = true)
+	@Mapper(source="ROLLNUM")
 	private long rollNo;
 
 	@Relation(mappedBy = "Address_001", wired = Wiring.AUTO, access = Access.PUBLIC, required = true)
 	private Address address;
 
-	@PropertyMapper(source = "AddressList")
+	@Mapper(source = "AddressList")
 	private List<Address> addresses;
 
 	@Property(access = Access.PUBLIC, required = true, type = LinkedHashMap.class)
