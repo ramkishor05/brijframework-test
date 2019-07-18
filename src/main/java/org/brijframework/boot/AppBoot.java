@@ -17,21 +17,24 @@ public class AppBoot {
 		container.init();
 		container.loadContainer();
 		
-		GenericMapper<Employee> mapper=new GenericMapper<Employee>() {};
+		/*GenericMapper<Employee> employeeMapper=new GenericMapper<Employee>() {};
 		EmployeeBean frombean=new EmployeeBean();
 		frombean.setID("201");
 		frombean.setNAME("Ram");
 		frombean.setROLLNUM(1011);
+		frombean.setCITY("Noida");*/
+		
 		Employee toBean=new Employee();
-		
-		mapper.mappedTo(toBean,frombean);
-		
+		/*employeeMapper.mappedTo(toBean,frombean);
+		System.out.println(PrintUtil.getObjectInfo(toBean));*/
+		GenericMapper<Employee> employeeBeanMapper=new GenericMapper<Employee>() {};
+		EmployeeBean frombean=new EmployeeBean();
+		frombean.setID("201");
+		frombean.setNAME("Ram");
+		frombean.setROLLNUM(1011);
+		frombean.setCITY("Noida");
+		employeeBeanMapper.mappedTo(toBean,frombean);
 		System.out.println(PrintUtil.getObjectInfo(toBean));
-		
-		EmployeeBean frombean1=new EmployeeBean();
-		mapper.mappedFrom(toBean,frombean1);
-		
-		System.out.println(PrintUtil.getObjectInfo(frombean1));
 		/*ApplicationBoot factory=ApplicationBoot.bootstraps(args);*/
 		
 		/*

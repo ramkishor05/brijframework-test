@@ -1,5 +1,8 @@
 package org.brijframework.beans;
 
+import org.brijframework.support.mapper.Mapper;
+
+@Mapper(source="Employee")
 public class EmployeeBean {
 
 	private String ID;
@@ -7,6 +10,9 @@ public class EmployeeBean {
 	private String NAME;
 
 	private long ROLLNUM;
+	
+	@Mapper(source = "CITY", destination="address.city.name")
+	private String CITY;
 
 	public String getID() {
 		return ID;
@@ -30,5 +36,13 @@ public class EmployeeBean {
 
 	public void setROLLNUM(long rOLLNUM) {
 		ROLLNUM = rOLLNUM;
+	}
+	
+	public void setCITY(String cITY) {
+		CITY = cITY;
+	}
+	
+	public String getCITY() {
+		return CITY;
 	}
 }
