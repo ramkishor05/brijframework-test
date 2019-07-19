@@ -15,3 +15,8 @@ application:
                   -
                    enable : true
                    location : classpath:\pojo\models\
+            mapper:
+                json :
+                  -
+                   enable : true
+                   location : classpath:\pojo\mapper\

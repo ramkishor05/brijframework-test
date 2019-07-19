@@ -1,12 +1,25 @@
 [
    {
 	 "id" :"employee_mapper",
+	 "name":"Employee",
 	 "type":"org.brijframework.beans.Employee",
 	 "properties":{
-	    "id":"ID",
-	    "name":"NAME",
-	    "rollNo":"RollNo",
-	    "password":"root"
+	    "id":{
+	      "source":"ID",
+	      "destination":"ID"
+	    },
+	    "name":{
+	    	"source":"NAME",
+	    	"destination":"ID"
+	    },
+	    "rollNo":{
+	    	"source":"RollNo",
+	    	"destination":"ROl"
+	    },
+	    "password":{
+	   		 "source":"PASS",
+	   		 "destination":"PASSWORD"
+	    }
 	 }
    }
 ]

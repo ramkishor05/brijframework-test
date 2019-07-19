@@ -2,20 +2,17 @@ package org.brijframework.boot;
 
 import org.brijframework.beans.Employee;
 import org.brijframework.beans.EmployeeBean;
+import org.brijframework.context.integration.ApplicationBoot;
 import org.brijframework.mapper.asm.GenericMapper;
-import org.brijframework.mapper.container.MapperContainer;
 import org.brijframework.support.config.ApplicationBootstrap;
 import org.brijframework.support.config.DatasourceBootstrap;
-import org.brijframework.util.formatter.PrintUtil;
 
 @ApplicationBootstrap(paths="application-bootstrap.properties|modelbeans-bootstrap.yml|datasource-bootstrap.yml")
 @DatasourceBootstrap
 public class AppBoot {
 
 	public static void main(String[] args) throws Exception {
-		MapperContainer container=MapperContainer.getContainer();
-		container.init();
-		container.loadContainer();
+		ApplicationBoot applicationBoot=ApplicationBoot.bootstraps();
 		
 		/*GenericMapper<Employee> employeeMapper=new GenericMapper<Employee>() {};
 		EmployeeBean frombean=new EmployeeBean();
@@ -34,7 +31,7 @@ public class AppBoot {
 		frombean.setROLLNUM(1011);
 		frombean.setCITY("Noida");
 		employeeBeanMapper.mappedTo(toBean,frombean);
-		System.out.println(PrintUtil.getObjectInfo(toBean));
+		System.out.println((String)toBean.getProperty("address.city.name"));
 		/*ApplicationBoot factory=ApplicationBoot.bootstraps(args);*/
 		
 		/*
@@ -65,13 +62,11 @@ public class AppBoot {
 		});*/
 		
 		/*
-		 
 		  Tomcat tomcat=new Tomcat(); 
 		  tomcat.setHostname("localhost");
 		  tomcat.getServer().setPort(1200);
 		  tomcat.start();
 	      tomcat.getServer().await();
-	      
 	    */
 	}
 }

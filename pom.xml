@@ -49,27 +49,27 @@
 			<artifactId>brijframework-jdbc</artifactId>
 			<version>0.0.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.brijframework</groupId>
 			<artifactId>brijframework-orm</artifactId>
 			<version>0.0.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
-	    <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-core</artifactId>
 			<version>9.0.21</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-jdk8 -->
 		<dependency>
 			<groupId>org.mapstruct</groupId>
@@ -96,30 +96,20 @@
 			<version>8.0.16</version>
 		</dependency>
 
+		<!-- Auto service annotation processor -->
+		<dependency>
+			<groupId>com.google.auto.service</groupId>
+			<artifactId>auto-service</artifactId>
+			<version>1.0-rc1</version>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 	<build>
-		<!-- <plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-shade-plugin</artifactId>
-				<version>2.1</version>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>shade</goal>
-						</goals>
-						<configuration>
-							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>org.brijframework.builder.factories.impl.CodeBuilderFactory</mainClass>
-								</transformer>
-							</transformers>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins> -->
+		<!-- <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-shade-plugin</artifactId> 
+			<version>2.1</version> <executions> <execution> <phase>package</phase> <goals> 
+			<goal>shade</goal> </goals> <configuration> <transformers> <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer"> 
+			<mainClass>org.brijframework.builder.factories.impl.CodeBuilderFactory</mainClass> 
+			</transformer> </transformers> </configuration> </execution> </executions> 
+			</plugin> </plugins> -->
 	</build>
 </project>

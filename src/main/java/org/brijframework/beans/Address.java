@@ -38,7 +38,7 @@ public class Address implements BeanObject {
 	@Property(access = Access.PUBLIC, value = "Sector 71")
 	public String line;
 
-	@Relation(mappedBy = "City")
+	@Relation(mappedBy = "City",access = Access.PUBLIC)
 	private City city;
 
 	@Mapper(source = "LANDMARK", destination="landMark")
