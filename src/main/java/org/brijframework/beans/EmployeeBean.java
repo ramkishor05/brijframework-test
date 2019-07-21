@@ -2,13 +2,16 @@ package org.brijframework.beans;
 
 import org.brijframework.support.mapper.Mapper;
 
-@Mapper(source="Employee")
+@Mapper(source="EmployeeBean", destination="Employee")
 public class EmployeeBean {
 
+	@Mapper(source = "ID", destination="id")
 	private String ID;
 
+	@Mapper(source = "NAME", destination="name")
 	private String NAME;
 
+	@Mapper(source = "ROLLNUM", destination="rollNo")
 	private long ROLLNUM;
 	
 	@Mapper(source = "CITY", destination="address.city.name")
