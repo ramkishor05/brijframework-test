@@ -13176,7 +13176,7 @@
           "ordinalPosition" : 0,
           "columnName" : "student_admission_number",
           "ascOrDesc" : "A",
-          "cardinality" : 969,
+          "cardinality" : 1472,
           "pages" : 0,
           "filterCondition" : null
         }
