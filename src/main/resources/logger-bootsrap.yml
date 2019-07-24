@@ -1,0 +1,14 @@
+application:
+   bootstrap: 
+       config:
+         logger:
+           json :
+              json :
+                -
+                 enable : true
+                 location : classpath:\logger
+                 emails: 
+                    -
+                     enable : true
+                     email : ramkishor05@gmail.com
+                     level : trace~debug~error

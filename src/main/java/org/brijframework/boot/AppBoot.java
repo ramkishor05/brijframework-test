@@ -4,6 +4,7 @@ import org.brijframework.bean.mapper.impl.GenericBeanMapper;
 import org.brijframework.beans.Employee;
 import org.brijframework.beans.EmployeeBean;
 import org.brijframework.context.integration.ApplicationBoot;
+import org.brijframework.logger.Logger;
 import org.brijframework.support.config.ApplicationBootstrap;
 import org.brijframework.support.config.DatasourceBootstrap;
 
@@ -12,7 +13,7 @@ import org.brijframework.support.config.DatasourceBootstrap;
 public class AppBoot {
 
 	public static void main(String[] args) throws Exception {
-		ApplicationBoot.bootstraps();
+		//ApplicationBoot.bootstraps();
 		
 		/*GenericMapper<Employee> employeeMapper=new GenericMapper<Employee>() {};
 		EmployeeBean frombean=new EmployeeBean();
@@ -20,19 +21,24 @@ public class AppBoot {
 		frombean.setNAME("Ram");
 		frombean.setROLLNUM(1011);
 		frombean.setCITY("Noida");*/
-		
+		/*
 		Employee toBean=new Employee();
 		EmployeeBean frombean=new EmployeeBean();
 		frombean.setID("201");
 		frombean.setNAME("Ram");
 		frombean.setROLLNUM(1011);
 		frombean.setCITY("Noida");
-		/*employeeMapper.mappedTo(toBean,frombean);
-		System.out.println(PrintUtil.getObjectInfo(toBean));*/
+		employeeMapper.mappedTo(toBean,frombean);
+		System.out.println(PrintUtil.getObjectInfo(toBean));
 		GenericBeanMapper<Employee,EmployeeBean> employeeBeanMapper=new GenericBeanMapper<Employee,EmployeeBean>() {};
-		
+		Logger.warning("Ok");
 		employeeBeanMapper.sourceMapper(toBean,frombean);
 		System.out.println((String)toBean.getProperty("address.city.name"));
+		Logger.warning((String)toBean.getProperty("address.city.name"));*/
+		
+		String.format("|%30.5s|", "Hello World"," ");
+		
+		String.format("|%30.5s|", "Hello World");
 		/*ApplicationBoot factory=ApplicationBoot.bootstraps(args);*/
 		
 		/*
