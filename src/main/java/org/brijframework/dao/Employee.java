@@ -1,4 +1,4 @@
-package org.brijframework.beans;
+package org.brijframework.dao;
 
 import java.util.LinkedHashMap;
 import java.util.List;

@@ -1,9 +1,9 @@
-package org.brijframework.beans;
+package org.brijframework.dto;
 
 import org.brijframework.support.mapper.Mapper;
 
 @Mapper(source="EmployeeBean", destination="Employee")
-public class EmployeeBean {
+public class EmployeeDTO {
 
 	@Mapper(source = "ID", destination="id")
 	private String ID;

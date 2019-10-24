@@ -1,6 +1,6 @@
 package org.brijframework.test.model;
 
-import org.brijframework.beans.Employee;
+import org.brijframework.dao.Employee;
 
 /**
  * Hello world!
@@ -34,5 +34,7 @@ public class ModelBeanForTestCollection {
 		System.out.println("line2="+line2);
 		System.out.println("city2="+city2);
 		System.out.println("cityname2="+cityname2);
+		
+		
 	}
 }

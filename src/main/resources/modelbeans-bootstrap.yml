@@ -20,10 +20,3 @@ application:
                   -
                    enable : true
                    location : classpath:\pojo\mapper\
-                   emails: [
-                      { 
-                       email:"",
-                       level:"trace~debug~error"
-                   
-                      }
-                   ]

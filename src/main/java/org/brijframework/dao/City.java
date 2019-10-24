@@ -1,4 +1,4 @@
-package org.brijframework.beans;
+package org.brijframework.dao;
 
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.Property;

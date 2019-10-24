@@ -1,4 +1,4 @@
-package org.brijframework.beans;
+package org.brijframework.dao;
 
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.beans.Attribute;

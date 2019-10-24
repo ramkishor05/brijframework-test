@@ -1,7 +1,7 @@
 package org.brijframework.test.model;
 
-import org.brijframework.beans.Address;
-import org.brijframework.beans.Employee;
+import org.brijframework.dao.Address;
+import org.brijframework.dao.Employee;
 
 public class ModelBeanForTestObject {
 
