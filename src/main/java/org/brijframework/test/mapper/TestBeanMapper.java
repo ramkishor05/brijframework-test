@@ -1,9 +1,9 @@
 package org.brijframework.test.mapper;
 
-import org.brijframework.bean.mapper.impl.GenericBeanMapper;
 import org.brijframework.context.integration.ApplicationBoot;
 import org.brijframework.dao.Employee;
 import org.brijframework.dto.EmployeeDTO;
+import org.brijframework.mapper.GenericMapper;
 
 public class TestBeanMapper {
 
@@ -23,8 +23,8 @@ public class TestBeanMapper {
 		frombean.setROLLNUM(1011);
 		frombean.setCITY("Noida");
 		
-		GenericBeanMapper<Employee, EmployeeDTO> employeeBeanMapper=new GenericBeanMapper<Employee, EmployeeDTO>() {};
-		employeeBeanMapper.sourceMapper(toBean,frombean);
+		GenericMapper<Employee, EmployeeDTO> employeeBeanMapper=new GenericMapper<Employee, EmployeeDTO>() {};
+		employeeBeanMapper.target(frombean);
 		
 		System.out.println("id = "+toBean.getProperty("id"));
 		System.out.println("name = "+toBean.getProperty("name"));
@@ -43,8 +43,8 @@ public class TestBeanMapper {
 		
 		EmployeeDTO frombean=new EmployeeDTO();
 		
-		GenericBeanMapper<Employee,EmployeeDTO> employeeBeanMapper=new GenericBeanMapper<Employee, EmployeeDTO>() {};
-		employeeBeanMapper.targetMapper(toBean, frombean);
+		GenericMapper<Employee,EmployeeDTO> employeeBeanMapper=new GenericMapper<Employee, EmployeeDTO>() {};
+		employeeBeanMapper.source(toBean);
 		
 		System.out.println("ID = "+frombean.getID());
 		System.out.println("NAME = "+frombean.getNAME());
