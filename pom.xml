@@ -20,7 +20,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.brijframework</groupId>
-			<artifactId>brijframework-boot</artifactId>
+			<artifactId>brijframework-bean</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 

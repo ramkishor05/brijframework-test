@@ -1,6 +1,6 @@
 package org.brijframework.boot;
 
-import org.brijframework.context.integration.ApplicationContextFactory;
+import org.brijframework.context.factories.ApplicationContextFactory;
 import org.brijframework.dao.Employee;
 import org.brijframework.dto.EmployeeDTO;
 import org.brijframework.mapper.GenericMapper;
