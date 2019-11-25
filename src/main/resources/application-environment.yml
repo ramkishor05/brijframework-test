@@ -14,6 +14,20 @@ server:
 ---
 application:
   profiles: dev
+  resource:
+    config:
+     location : classpath:pojo/
+     enable : true
+  model:
+   config: 
+     location : classpath:/pojo/models
+     packages : org.brijframework.dao
+     enable : true
+  bean:
+   config: 
+     location : classpath:/pojo/beans
+     packages : org.brijframework.dao
+     enable : true
 server:
   email: dev@mkyong.com
   cluster:
