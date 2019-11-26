@@ -1,0 +1,34 @@
+[
+	{
+		"id": "Employee_002",
+		"target": "org.brijframework.dao.Employee",
+		"name": "Employee",
+		"scope": "singleton",
+		"properties": {
+			"id": {
+				"access": "PUBLIC",
+				"value": "4545"
+			},
+			"name": {
+				"access": "PUBLIC",
+				"value": "Ram"
+			}
+		}
+	},
+	{
+		"id": "Employee_003",
+		"target": "org.brijframework.dao.Employee",
+		"name": "Employee",
+		"scope": "singleton",
+		"properties": {
+			"id": {
+				"access": "PUBLIC",
+				"value": "4545"
+			},
+			"name": {
+				"access": "PUBLIC",
+				"value": "Ram"
+			}
+		}
+	}
+]

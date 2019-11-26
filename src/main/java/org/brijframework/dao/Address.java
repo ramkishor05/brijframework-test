@@ -18,7 +18,8 @@ import org.brijframework.util.support.Access;
   constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }), 
   properties = {@Attribute(name = "line", value = "noida"), @Attribute(name = "landMark", value = "Globel") 
 })
-
+@Model
+@Bean
 @Mapper(source = "")
 public class Address implements BeanObject {
 	/**
@@ -71,4 +72,11 @@ public class Address implements BeanObject {
 		System.out.println("Address ppt call");
 		return BeanObject.super.setProperty(_keyPath, _value);
 	}
+
+	@Override
+	public String toString() {
+		return "Address [line=" + line + ", city=" + city + ", landMark=" + landMark + "]";
+	}
+	
+	
 }
