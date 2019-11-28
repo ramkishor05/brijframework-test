@@ -1,36 +1,38 @@
 package org.brijframework.test.model;
 
-import org.brijframework.bean.factories.impl.BeanFactoryImpl;
+import org.brijframework.bean.context.BeanContext;
+import org.brijframework.bean.context.factories.BeanContextFactory;
 import org.brijframework.dao.Employee;
 
 public class ModelFactoryTest {
 
 	public static void main(String[] args) {
-		Employee instance1 = BeanFactoryImpl.getFactory().getBean("Employee_REQUEST");
+		BeanContext beanContext= BeanContextFactory.getFactory().getBeanContext();
+		Employee instance1 = beanContext.getBeanObject("Employee_REQUEST");
 		System.out.println(instance1);
 		
-		Employee instance2 = BeanFactoryImpl.getFactory().getBean("Employee_REQUEST");
+		Employee instance2 = beanContext.getBeanObject("Employee_REQUEST");
 		System.out.println(instance2);
 		
-		Employee instance3 = BeanFactoryImpl.getFactory().getBean("Employee_REQUEST");
+		Employee instance3 = beanContext.getBeanObject("Employee_REQUEST");
 		System.out.println(instance3);
 		
-		Employee instance4 = BeanFactoryImpl.getFactory().getBean("Employee");
+		Employee instance4 = beanContext.getBeanObject("Employee");
 		System.out.println(instance4);
 		
-		Employee instance5 = BeanFactoryImpl.getFactory().getBean("Employee");
+		Employee instance5 = beanContext.getBeanObject("Employee");
 		System.out.println(instance5);
 		
-		Employee instance6 = BeanFactoryImpl.getFactory().getBean("Employee_PROTOTYPE");
+		Employee instance6 = beanContext.getBeanObject("Employee_PROTOTYPE");
 		System.out.println(instance6);
 		
-		Employee instance7 = BeanFactoryImpl.getFactory().getBean("Employee_PROTOTYPE");
+		Employee instance7 = beanContext.getBeanObject("Employee_PROTOTYPE");
 		System.out.println(instance7);
 		
-		Employee instance8 = BeanFactoryImpl.getFactory().getBean("Employee_SINGLETON");
+		Employee instance8 = beanContext.getBeanObject("Employee_SINGLETON");
 		System.out.println(instance8);
 		
-		Employee instance9 = BeanFactoryImpl.getFactory().getBean("Employee_SINGLETON");
+		Employee instance9 = beanContext.getBeanObject("Employee_SINGLETON");
 		System.out.println(instance9);
 	}
 
