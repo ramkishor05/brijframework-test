@@ -1,21 +1,23 @@
 [
-
-   {
-	 "id" :"Employee_002",
-	 "model":"Employee_002",
-	 "name": "Employee",
-	 "properties":{
-	    "id":"com.mysql.cj.jdbc.Driver",
-	    "name":"jdbc:mysql://localhost:3306/"
-	 }
-   },
-   {
-	 "id" :"Employee_003",
-	 "model":"Employee_003",
-	 "name": "Employee",
-	 "properties":{
-	    "id":"com.mysql.cj.jdbc.Driver",
-	    "name":"jdbc:mysql://localhost:3306/"
-	 }
-   }
+	{
+		"id": "Employee_002",
+		"model": "Employee_002",
+		"name": "Employee",
+		"properties": {
+			"id": "002",
+			"name": "Ram"
+		}
+	},
+	{
+		"id": "Employee_003",
+		"model": "Employee_003",
+		"name": "Employee",
+		"properties": {
+			"id": "003",
+			"name": "Ram Kishor",
+			"address": {
+				"@ref": "Address_001"
+			}
+		}
+	}
 ]

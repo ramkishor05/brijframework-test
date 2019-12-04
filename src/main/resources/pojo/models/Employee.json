@@ -1,7 +1,7 @@
 [
 	{
 		"id": "Employee_002",
-		"target": "org.brijframework.dao.Employee",
+		"type": "org.brijframework.dao.Employee",
 		"name": "Employee",
 		"scope": "singleton",
 		"properties": {
@@ -17,7 +17,7 @@
 	},
 	{
 		"id": "Employee_003",
-		"target": "org.brijframework.dao.Employee",
+		"type": "org.brijframework.dao.Employee",
 		"name": "Employee",
 		"scope": "singleton",
 		"properties": {
@@ -28,6 +28,9 @@
 			"name": {
 				"access": "PUBLIC",
 				"value": "Ram"
+			},
+			"address": {
+				"access": "PUBLIC"
 			}
 		}
 	}

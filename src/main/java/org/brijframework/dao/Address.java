@@ -3,6 +3,7 @@ package org.brijframework.dao;
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.beans.Attribute;
 import org.brijframework.support.beans.Bean;
+import org.brijframework.support.enums.Scope;
 import org.brijframework.support.mapper.Mapper;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Logic;
@@ -14,7 +15,7 @@ import org.brijframework.util.support.Access;
 
 @Model(id = "Address_001", access = Access.PRIVATE, 
   constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }))
-@Bean(id = "Address_001", model = "Address_001", 
+@Bean(id = "Address_001", scope=Scope.SESSION,  model = "Address_001", 
   constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }), 
   properties = {@Attribute(name = "line", value = "noida"), @Attribute(name = "landMark", value = "Globel") 
 })
@@ -75,7 +76,7 @@ public class Address implements BeanObject {
 
 	@Override
 	public String toString() {
-		return "Address [line=" + line + ", city=" + city + ", landMark=" + landMark + "]";
+		return "Address "+super.toString()+"[line=" + line + ", city=" + city + ", landMark=" + landMark + "]";
 	}
 	
 	

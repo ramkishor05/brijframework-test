@@ -112,4 +112,12 @@ public class Employee implements BeanObject {
 		System.out.println("String j=" + j);
 	}
 
+	@Override
+	public String toString() {
+		return super.toString()+"[id=" + id + ", name=" + name + ", rollNo=" + rollNo + ", address=" + address + ", addresses="
+				+ addresses + ", addresseMap=" + addresseMap + "]";
+	}
+	
+	
+
 }
