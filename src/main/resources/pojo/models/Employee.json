@@ -3,7 +3,7 @@
 		"id": "Employee_002",
 		"type": "org.brijframework.dao.Employee",
 		"name": "Employee",
-		"scope": "singleton",
+		"access": "PUBLIC",
 		"properties": {
 			"id": {
 				"access": "PUBLIC",
@@ -19,7 +19,7 @@
 		"id": "Employee_003",
 		"type": "org.brijframework.dao.Employee",
 		"name": "Employee",
-		"scope": "singleton",
+		"access": "PUBLIC",
 		"properties": {
 			"id": {
 				"access": "PUBLIC",

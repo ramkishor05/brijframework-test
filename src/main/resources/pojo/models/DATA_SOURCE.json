@@ -2,7 +2,7 @@
 	"id": "DATA_SOURCE",
 	"type": "org.apache.commons.dbcp.BasicDataSource",
 	"name": "DataSource",
-	"scope": "SINGLETON",
+	"access": "PUBLIC",
 	"properties": {
 		"driverClassName": {
 			"access": "PUBLIC"

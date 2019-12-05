@@ -8,31 +8,31 @@ public class ModelFactoryTest {
 
 	public static void main(String[] args) {
 		BeanContext beanContext= BeanContextFactory.getFactory().getBeanContext();
-		Employee instance1 = beanContext.getBeanObject("Employee_REQUEST");
+		Employee instance1 = beanContext.getBean("Employee_REQUEST");
 		System.out.println(instance1);
 		
-		Employee instance2 = beanContext.getBeanObject("Employee_REQUEST");
+		Employee instance2 = beanContext.getBean("Employee_REQUEST");
 		System.out.println(instance2);
 		
-		Employee instance3 = beanContext.getBeanObject("Employee_REQUEST");
+		Employee instance3 = beanContext.getBean("Employee_REQUEST");
 		System.out.println(instance3);
 		
-		Employee instance4 = beanContext.getBeanObject("Employee");
+		Employee instance4 = beanContext.getBean("Employee");
 		System.out.println(instance4);
 		
-		Employee instance5 = beanContext.getBeanObject("Employee");
+		Employee instance5 = beanContext.getBean("Employee");
 		System.out.println(instance5);
 		
-		Employee instance6 = beanContext.getBeanObject("Employee_PROTOTYPE");
+		Employee instance6 = beanContext.getBean("Employee_PROTOTYPE");
 		System.out.println(instance6);
 		
-		Employee instance7 = beanContext.getBeanObject("Employee_PROTOTYPE");
+		Employee instance7 = beanContext.getBean("Employee_PROTOTYPE");
 		System.out.println(instance7);
 		
-		Employee instance8 = beanContext.getBeanObject("Employee_SINGLETON");
+		Employee instance8 = beanContext.getBean("Employee_SINGLETON");
 		System.out.println(instance8);
 		
-		Employee instance9 = beanContext.getBeanObject("Employee_SINGLETON");
+		Employee instance9 = beanContext.getBean("Employee_SINGLETON");
 		System.out.println(instance9);
 	}
 

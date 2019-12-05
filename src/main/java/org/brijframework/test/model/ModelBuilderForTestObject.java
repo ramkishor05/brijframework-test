@@ -2,7 +2,7 @@ package org.brijframework.test.model;
 
 import java.io.IOException;
 
-import org.brijframework.bean.impl.BeanBuilder;
+import org.brijframework.bean.builder.BeanBuilder;
 import org.brijframework.dao.Employee;
 
 public class ModelBuilderForTestObject {

@@ -6,7 +6,6 @@ import java.util.Map;
 
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.enums.Formula;
-import org.brijframework.support.enums.MappedBy;
 import org.brijframework.support.model.Construct;
 import org.brijframework.support.model.Identity;
 import org.brijframework.support.model.Logic;
@@ -37,10 +36,10 @@ public class Employee implements BeanObject {
 	@Property(access = Access.PUBLIC, required = true)
 	private long rollNo;
 
-	@Relation(mappedBy = "Address_001", wired = MappedBy.AUTO, access = Access.PUBLIC, required = true)
+	@Relation(mappedBy = "Address_001", access = Access.PUBLIC, required = true)
 	private Address address;
 
-	@Relation(wired = MappedBy.AUTO, access = Access.PUBLIC, required = true)
+	@Relation(access = Access.PUBLIC, required = true)
 	private List<Address> addresses;
 
 	@Property(access = Access.PUBLIC, required = true, type = LinkedHashMap.class)
