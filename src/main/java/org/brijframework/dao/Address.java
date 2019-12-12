@@ -15,12 +15,12 @@ import org.brijframework.util.support.Access;
 
 @Model(id = "Address_001", access = Access.PRIVATE, 
   constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }))
-@Bean(id = "Address_001", scope=Scope.SESSION,  model = "Address_001", 
+@Bean(id = "Address_001", scope=Scope.PROTOTYPE,  model = "Address_001", 
   constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }), 
   properties = {@Attribute(name = "line", value = "noida"), @Attribute(name = "landMark", value = "Globel") 
 })
 @Model
-@Bean
+@Bean(scope=Scope.SESSION)
 @Mapper(source = "")
 public class Address implements BeanObject {
 	/**
@@ -76,7 +76,7 @@ public class Address implements BeanObject {
 
 	@Override
 	public String toString() {
-		return "Address "+super.toString()+"[line=" + line + ", city=" + city + ", landMark=" + landMark + "]";
+		return super.toString()+"[line=" + line + ", city=" + city + ", landMark=" + landMark + "]";
 	}
 	
 	
