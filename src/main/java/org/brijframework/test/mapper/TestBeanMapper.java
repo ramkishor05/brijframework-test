@@ -1,6 +1,6 @@
 package org.brijframework.test.mapper;
 
-import org.brijframework.context.factories.ApplicationContextFactory;
+import org.brijframework.boot.factories.BootstrapContextFactory;
 import org.brijframework.dao.Employee;
 import org.brijframework.dto.EmployeeDTO;
 import org.brijframework.model.mapper.GenericMapper;
@@ -8,7 +8,7 @@ import org.brijframework.model.mapper.GenericMapper;
 public class TestBeanMapper {
 
 	public static void main(String[] args) {
-		ApplicationContextFactory.getFactory();
+		BootstrapContextFactory.getFactory();
 		sourceMapper();
 		targetMapper();
 	}

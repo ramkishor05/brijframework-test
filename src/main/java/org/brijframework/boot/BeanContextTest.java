@@ -3,18 +3,18 @@ package org.brijframework.boot;
 import org.brijframework.bean.context.BeanContext;
 import org.brijframework.bean.context.factories.BeanContextFactory;
 import org.brijframework.bean.scope.monitor.factories.SessionScopeMonitorFactroy;
-import org.brijframework.context.factories.ApplicationContextFactory;
+import org.brijframework.boot.factories.BootstrapContextFactory;
 import org.brijframework.dao.Address;
 import org.brijframework.env.Environment;
+import org.brijframework.support.app.ApplicationRunner;
 import org.brijframework.support.enums.Scope;
 import org.brijframework.util.printer.LoggerConsole;
 
-
+@ApplicationRunner
 public class BeanContextTest {
 	
-	
 	public static void main(String[] args) {
-		ApplicationContextFactory.getFactory().getApplicationContext();
+		BootstrapContextFactory.getFactory().getApplicationContext();
 		BeanContext beanContext=BeanContextFactory.getFactory().getBeanContext();
 		
 		LoggerConsole.screen("BeanResource");
@@ -34,15 +34,15 @@ public class BeanContextTest {
 		LoggerConsole.screen("BeanObject");
 		
 		LoggerConsole.screen("BeanNameList",""+beanContext.getBeanNameList());
-		LoggerConsole.screen("BeanNameList",""+beanContext.getBeanNameList(Address.class));
-		LoggerConsole.screen("Address_001",""+beanContext.getBean("Address_001",Address.class));
+		LoggerConsole.screen("BeanNameList",""+beanContext.getBeanNameList( Address.class ));
+		LoggerConsole.screen("Address_001",""+beanContext.getBean("Address_001", Address.class));
 		SessionScopeMonitorFactroy.factory().currentService();
 		
 		LoggerConsole.screen("Address_001",""+beanContext.getBean("Address_001"));
 		LoggerConsole.screen("Employee_003",""+beanContext.getBean("Employee_003"));
 		LoggerConsole.screen("Address",""+beanContext.getBean(Address.class));
-		LoggerConsole.screen("environment1",""+beanContext.getBean("environment",Environment.class));
-		LoggerConsole.screen("environment2",""+beanContext.getBean("environment",Environment.class));
+		LoggerConsole.screen("environment1",""+beanContext.getBean("environment", Environment.class ));
+		LoggerConsole.screen("environment2",""+beanContext.getBean("environment", Environment.class ));
 		
 		LoggerConsole.screen("BeanScope",""+beanContext.getBeanList(Scope.SINGLETON));
 		LoggerConsole.screen("BeanScope",""+beanContext.getBeanDefinitionList(Scope.SINGLETON));

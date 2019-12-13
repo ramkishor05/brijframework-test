@@ -1,16 +1,16 @@
 package org.brijframework.dao;
 
 import org.brijframework.bean.BeanObject;
-import org.brijframework.support.beans.Attribute;
-import org.brijframework.support.beans.Bean;
+import org.brijframework.support.bean.Bean;
+import org.brijframework.support.bean.attributes.Attribute;
 import org.brijframework.support.enums.Scope;
-import org.brijframework.support.mapper.Mapper;
 import org.brijframework.support.model.Construct;
-import org.brijframework.support.model.Logic;
 import org.brijframework.support.model.Model;
-import org.brijframework.support.model.Param;
-import org.brijframework.support.model.Property;
-import org.brijframework.support.model.Relation;
+import org.brijframework.support.model.logics.Logic;
+import org.brijframework.support.model.mapper.ModelMapper;
+import org.brijframework.support.model.properties.Property;
+import org.brijframework.support.model.properties.Relation;
+import org.brijframework.support.model.queries.Param;
 import org.brijframework.util.support.Access;
 
 @Model(id = "Address_001", access = Access.PRIVATE, 
@@ -21,7 +21,7 @@ import org.brijframework.util.support.Access;
 })
 @Model
 @Bean(scope=Scope.SESSION)
-@Mapper(source = "")
+@ModelMapper(source = "")
 public class Address implements BeanObject {
 	/**
 	 * 
@@ -43,7 +43,7 @@ public class Address implements BeanObject {
 	@Relation(mappedBy = "City",access = Access.PUBLIC)
 	private City city;
 
-	@Mapper(source = "LANDMARK", destination="landMark")
+	@ModelMapper(source = "LANDMARK", destination="landMark")
 	@Property(access = Access.PUBLIC, value = "Noida")
 	private String landMark;
 

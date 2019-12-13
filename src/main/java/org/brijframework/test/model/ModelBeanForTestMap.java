@@ -1,6 +1,6 @@
 package org.brijframework.test.model;
 
-import org.brijframework.context.factories.ApplicationContextFactory;
+import org.brijframework.boot.factories.BootstrapContextFactory;
 import org.brijframework.dao.Address;
 import org.brijframework.dao.Employee;
 
@@ -10,7 +10,7 @@ import org.brijframework.dao.Employee;
  */
 public class ModelBeanForTestMap {
 	public static void main(String[] args) {
-		ApplicationContextFactory.getFactory().getApplicationContext();
+		BootstrapContextFactory.getFactory().getApplicationContext();
 		Employee employee=new Employee();
 		employee.setProperty("addresseMap.01010", new Address());
 		employee.setProperty("addresseMap.01010.line", "Noida1");

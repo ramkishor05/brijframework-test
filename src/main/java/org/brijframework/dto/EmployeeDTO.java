@@ -1,20 +1,20 @@
 package org.brijframework.dto;
 
-import org.brijframework.support.mapper.Mapper;
+import org.brijframework.support.model.mapper.ModelMapper;
 
-@Mapper(source="EmployeeBean", destination="Employee")
+@ModelMapper(source="EmployeeBean", destination="Employee")
 public class EmployeeDTO {
 
-	@Mapper(source = "ID", destination="id")
+	@ModelMapper(source = "ID", destination="id")
 	private String ID;
 
-	@Mapper(source = "NAME", destination="name")
+	@ModelMapper(source = "NAME", destination="name")
 	private String NAME;
 
-	@Mapper(source = "ROLLNUM", destination="rollNo")
+	@ModelMapper(source = "ROLLNUM", destination="rollNo")
 	private long ROLLNUM;
 	
-	@Mapper(source = "CITY", destination="address.city.name")
+	@ModelMapper(source = "CITY", destination="address.city.name")
 	private String CITY;
 
 	public String getID() {

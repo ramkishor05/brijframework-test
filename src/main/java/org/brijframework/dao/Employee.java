@@ -7,13 +7,13 @@ import java.util.Map;
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.enums.Formula;
 import org.brijframework.support.model.Construct;
-import org.brijframework.support.model.Identity;
-import org.brijframework.support.model.Logic;
 import org.brijframework.support.model.Model;
-import org.brijframework.support.model.Param;
-import org.brijframework.support.model.Property;
-import org.brijframework.support.model.Relation;
-import org.brijframework.support.model.Strategy;
+import org.brijframework.support.model.identifier.Identity;
+import org.brijframework.support.model.identifier.Strategy;
+import org.brijframework.support.model.logics.Logic;
+import org.brijframework.support.model.properties.Property;
+import org.brijframework.support.model.properties.Relation;
+import org.brijframework.support.model.queries.Param;
 import org.brijframework.util.support.Access;
 
 @Model(id = "Employee_001", access = Access.PRIVATE)
