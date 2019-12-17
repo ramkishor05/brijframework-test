@@ -1,6 +1,6 @@
 package org.brijframework.boot;
 
-import org.brijframework.boot.factories.BootstrapContextFactory;
+import org.brijframework.boot.runner.ApplicationContextRunner;
 import org.brijframework.dao.Address;
 import org.brijframework.model.context.ModelContext;
 import org.brijframework.model.context.factories.ModelContextFactory;
@@ -9,7 +9,7 @@ import org.brijframework.util.printer.LoggerConsole;
 public class ModelContextTest {
 
 	public static void main(String[] args) {
-		BootstrapContextFactory.getFactory().getApplicationContext();
+		ApplicationContextRunner.run().getApplicationContext();
 		
 		ModelContext modelContext=ModelContextFactory.getFactory().getModelContext();
 		

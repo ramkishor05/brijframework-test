@@ -13,10 +13,15 @@ import org.brijframework.support.model.properties.Relation;
 import org.brijframework.support.model.queries.Param;
 import org.brijframework.util.support.Access;
 
-@Model(id = "Address_001", access = Access.PRIVATE, 
-  constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }))
-@Bean(id = "Address_001", scope=Scope.PROTOTYPE,  model = "Address_001", 
-  constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }), 
+@Model(
+id = "Address_001", 
+access = Access.PRIVATE, 
+constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }))
+@Bean(
+id = "Address_001", 
+scope=Scope.PROTOTYPE, 
+model = "Address_001", 
+constructor = @Construct(params = {@Param(type = String.class, index = 0), @Param(type = String.class, index = 1) }), 
   properties = {@Attribute(name = "line", value = "noida"), @Attribute(name = "landMark", value = "Globel") 
 })
 @Model
@@ -40,7 +45,7 @@ public class Address implements BeanObject {
 	@Property(access = Access.PUBLIC, value = "Sector 71")
 	public String line;
 
-	@Relation(mappedBy = "City",access = Access.PUBLIC)
+	@Relation(mappedBy = "City",access = Access.PRIVATE)
 	private City city;
 
 	@ModelMapper(source = "LANDMARK", destination="landMark")
