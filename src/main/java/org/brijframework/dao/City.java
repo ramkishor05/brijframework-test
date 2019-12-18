@@ -1,12 +1,12 @@
 package org.brijframework.dao;
 
+import org.brijframework.Access;
 import org.brijframework.support.model.Model;
-import org.brijframework.support.model.properties.Property;
-import org.brijframework.util.support.Access;
+import org.brijframework.support.model.properties.ModelProperty;
 
-@Model(access = Access.PRIVATE)
+@Model(access = Access.AUTO)
 public class City {
 
-	@Property(value="Auto Noida")
+	@ModelProperty(value="Auto Noida")
 	public String name;
 }
