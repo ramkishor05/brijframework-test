@@ -4,25 +4,31 @@ import org.brijframework.Access;
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.bean.Bean;
 import org.brijframework.support.bean.BeanConstruct;
+import org.brijframework.support.bean.BeanParam;
 import org.brijframework.support.bean.properties.BeanProperty;
 import org.brijframework.support.enums.Scope;
 import org.brijframework.support.model.Model;
 import org.brijframework.support.model.ModelConstruct;
+import org.brijframework.support.model.ModelParam;
 import org.brijframework.support.model.logics.Logic;
 import org.brijframework.support.model.mapper.ModelMapper;
 import org.brijframework.support.model.properties.ModelProperty;
 import org.brijframework.support.model.properties.ModelRelation;
-import org.brijframework.support.model.queries.Param;
 
 @Model(
 	id = "Address_001", 
 	access = Access.AUTO, 
 	constructor = @ModelConstruct(
 		params = {
-			@Param(type = String.class, index = 0), 
-			@Param(type = String.class, index = 1) 
+			@ModelParam(type = String.class, index = 0), 
+			@ModelParam(type = String.class, index = 1) 
 			}
 		)
+	, 
+	properties = {
+		@ModelProperty(name = "line"), 
+		@ModelProperty(name = "landMark") 
+	}
 )
 @Bean(
 	id = "Address_001", 
@@ -30,8 +36,8 @@ import org.brijframework.support.model.queries.Param;
 	model = "Address_001", 
 	constructor = @BeanConstruct(
 		params = {
-			@Param(type = String.class, index = 0),
-			@Param(type = String.class, index = 1)
+			@BeanParam(index = 0, value="line"),
+			@BeanParam(index = 1, value="landMark")
 		}
 	), 
 	properties = {
@@ -55,9 +61,10 @@ public class Address implements BeanObject {
 	public Address(String line, String landMark) {
 		this.line = line;
 		this.landMark = landMark;
+		System.out.println(line+" = = "+landMark);
 	}
 
-	@ModelProperty(access = Access.READ_ONLY, value = "Sector 71")
+	@ModelProperty(access = Access.READ_WRITE)
 	@BeanProperty("Sector 71")
 	public String line;
 
@@ -65,8 +72,11 @@ public class Address implements BeanObject {
 	private City city;
 
 	@ModelMapper(source = "LANDMARK", destination="landMark")
-	@ModelProperty(access = Access.WRITE_ONLY, value = "Noida")
+	@ModelProperty(access = Access.WRITE_ONLY)
 	private String landMark;
+	
+	@ModelProperty(access = Access.AUTO)
+	private Employee employee;
 
 	@Logic
 	public void logicInfo() {

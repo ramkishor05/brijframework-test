@@ -6,12 +6,10 @@
 		"access": "PUBLIC",
 		"properties": {
 			"id": {
-				"access": "PUBLIC",
-				"value": "4545"
+				"access": "PUBLIC"
 			},
 			"name": {
-				"access": "PUBLIC",
-				"value": "Ram"
+				"access": "PUBLIC"
 			}
 		}
 	},
@@ -22,12 +20,10 @@
 		"access": "PUBLIC",
 		"properties": {
 			"id": {
-				"access": "PUBLIC",
-				"value": "4545"
+				"access": "PUBLIC"
 			},
 			"name": {
-				"access": "PUBLIC",
-				"value": "Ram"
+				"access": "PUBLIC"
 			},
 			"address": {
 				"access": "PUBLIC"

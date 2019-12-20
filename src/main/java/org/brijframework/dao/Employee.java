@@ -7,27 +7,34 @@ import java.util.Map;
 import org.brijframework.Access;
 import org.brijframework.bean.BeanObject;
 import org.brijframework.support.enums.Formula;
-import org.brijframework.support.model.ModelConstruct;
 import org.brijframework.support.model.Model;
+import org.brijframework.support.model.ModelConstruct;
+import org.brijframework.support.model.ModelParam;
 import org.brijframework.support.model.identifier.Identity;
 import org.brijframework.support.model.identifier.Strategy;
 import org.brijframework.support.model.logics.Logic;
 import org.brijframework.support.model.properties.ModelProperty;
 import org.brijframework.support.model.properties.ModelRelation;
 import org.brijframework.support.model.queries.Param;
-import org.brijframework.util.support.ReflectionAccess;
 
 @Model(id = "Employee_001", access = Access.AUTO)
-@Model(access = Access.AUTO, constructor = @ModelConstruct(params = {
-		@Param(type = long.class, value = "1", index = 2), @Param(type = String.class, value = "1", index = 0),
-		@Param(type = String.class, value = "Ram", index = 1) }))
+@Model(
+  access = Access.AUTO, 
+  constructor = @ModelConstruct(
+	params = {
+		@ModelParam(type = long.class,index = 2), 
+		@ModelParam(type = String.class, index = 0),
+		@ModelParam(type = String.class, index = 1) 
+	 }
+  )
+)
 public class Employee implements BeanObject {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
-	@ModelProperty("1")
+	@ModelProperty
 	@Identity(strategy = @Strategy(formula = Formula.Sequence, init = 10))
 	private String id;
 
@@ -50,22 +57,24 @@ public class Employee implements BeanObject {
 		System.out.println("colling for default");
 	}
 
-	@ModelConstruct(params = { @Param(type = String.class, value = "1", index = 0) })
+	@ModelConstruct(params = { @ModelParam(type = String.class, index = 0) })
 	public Employee(String id) {
 		System.out.println("colling for String only ");
 		this.id = id;
 	}
 
-	@ModelConstruct(params = { @Param(type = String.class, value = "1", index = 0),
-			@Param(type = String.class, value = "Ram", index = 1) })
+	@ModelConstruct(params = { @ModelParam(type = String.class, index = 0),
+			@ModelParam(type = String.class, index = 1) })
 	public Employee(String id, String name) {
 		System.out.println("colling for id and name ");
 		this.id = id;
 		this.name = name;
 	}
 
-	@ModelConstruct(params = { @Param(type = String.class, value = "1", index = 0),
-			@Param(type = String.class, value = "Ram", index = 1), @Param(type = Long.class, value = "1", index = 2) })
+	@ModelConstruct(params = { @ModelParam(type = String.class,index = 0),
+			@ModelParam(type = String.class, index = 1), 
+			@ModelParam(type = Long.class, index = 2)
+	})
 	public Employee(String id, String name, long rollNo) {
 		System.out.println("colling for id and name, rollno ");
 		this.id = id;
@@ -73,12 +82,12 @@ public class Employee implements BeanObject {
 		this.rollNo = rollNo;
 	}
 
-	@ModelProperty("1")
+	@ModelProperty
 	public void setId(String id) {
 		this.id = id;
 	}
 
-	@ModelProperty("1")
+	@ModelProperty
 	public String getId() {
 		System.out.println("id is getting :" + id);
 		return id;

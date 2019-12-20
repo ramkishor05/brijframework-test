@@ -15,7 +15,7 @@
 		"properties": {
 			"id": "003",
 			"name": "Ram Kishor",
-			"address": {
+			"address@ref": {
 				"@ref": "Address_001"
 			}
 		}
