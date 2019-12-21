@@ -38,7 +38,7 @@ public class Employee implements BeanObject {
 	@Identity(strategy = @Strategy(formula = Formula.Sequence, init = 10))
 	private String id;
 
-	@ModelProperty(access = Access.AUTO, required = true)
+	@ModelProperty(required = true)
 	private String name;
 
 	@ModelProperty(access = Access.AUTO, required = true)

@@ -20,8 +20,8 @@ import org.brijframework.support.model.properties.ModelRelation;
 	access = Access.AUTO, 
 	constructor = @ModelConstruct(
 		params = {
-			@ModelParam(type = String.class, index = 0), 
-			@ModelParam(type = String.class, index = 1) 
+			  @ModelParam(type = String.class, index = 0), 
+			  @ModelParam(type = String.class, index = 1) 
 			}
 		)
 	, 
@@ -36,14 +36,10 @@ import org.brijframework.support.model.properties.ModelRelation;
 	model = "Address_001", 
 	constructor = @BeanConstruct(
 		params = {
-			@BeanParam(index = 0, value="line"),
-			@BeanParam(index = 1, value="landMark")
+			@BeanParam(index = 0, value="J603 "),
+			@BeanParam(index = 1, value="Global School")
 		}
-	), 
-	properties = {
-		@BeanProperty(name = "line", value = "noida"), 
-		@BeanProperty(name = "landMark", value = "Globel") 
-	}
+	)
 )
 @Model
 @Bean(scope=Scope.SESSION)
@@ -64,18 +60,18 @@ public class Address implements BeanObject {
 		System.out.println(line+" = = "+landMark);
 	}
 
-	@ModelProperty(access = Access.READ_WRITE)
+	@ModelProperty
 	@BeanProperty("Sector 71")
 	public String line;
 
-	@ModelRelation(mappedBy = "City",access = Access.READ_ONLY)
+	@ModelRelation(mappedBy = "City")
 	private City city;
 
 	@ModelMapper(source = "LANDMARK", destination="landMark")
 	@ModelProperty(access = Access.WRITE_ONLY)
 	private String landMark;
 	
-	@ModelProperty(access = Access.AUTO)
+	@ModelRelation
 	private Employee employee;
 
 	@Logic

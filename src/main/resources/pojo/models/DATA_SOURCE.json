@@ -2,22 +2,22 @@
 	"id": "DATA_SOURCE",
 	"type": "org.apache.commons.dbcp.BasicDataSource",
 	"name": "DataSource",
-	"access": "PUBLIC",
+	"access": "READ_WRITE",
 	"properties": {
 		"driverClassName": {
-			"access": "PUBLIC"
+			"access": "READ_WRITE"
 		},
 		"url": {
-			"access": "PUBLIC"
+			"access": "READ_WRITE"
 		},
 		"username": {
-			"access": "PUBLIC"
+			"access": "READ_WRITE"
 		},
 		"password": {
-			"access": "PUBLIC"
+			"access": "READ_WRITE"
 		},
 		"defaultCatalog": {
-			"access": "PUBLIC"
+			"access": "READ_WRITE"
 		}
 	}
 }
