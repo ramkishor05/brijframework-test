@@ -68,7 +68,8 @@ public class Address implements BeanObject {
 	private City city;
 
 	@ModelMapper(source = "LANDMARK", destination="landMark")
-	@ModelProperty(access = Access.WRITE_ONLY)
+	@ModelProperty
+	@BeanProperty
 	private String landMark;
 	
 	@ModelRelation

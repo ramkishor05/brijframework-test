@@ -17,5 +17,7 @@ public class BeanContextFactoryTest {
 		BeanScopeUtil.setPropertyPath(address,"employee@ref", "Employee_002",true);
 		address.printObject();
 		System.out.println((String)BeanScopeUtil.getPropertyPath(address,"employee.name",true));
+		
+		System.out.println(BeanScopeUtil.getPropertiesPath(address, true));
 	}
 }
