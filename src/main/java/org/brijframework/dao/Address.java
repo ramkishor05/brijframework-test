@@ -36,7 +36,7 @@ import org.brijframework.support.model.properties.ModelRelation;
 	model = "Address_001", 
 	constructor = @BeanConstruct(
 		params = {
-			@BeanParam(index = 0, value="J603 "),
+			@BeanParam(index = 0, value="J603"),
 			@BeanParam(index = 1, value="Global School")
 		}
 	)
@@ -60,7 +60,7 @@ public class Address implements BeanObject {
 		System.out.println(line+" = = "+landMark);
 	}
 
-	@ModelProperty
+	@ModelProperty(access=Access.READ_ONLY)
 	@BeanProperty("Sector 71")
 	public String line;
 
